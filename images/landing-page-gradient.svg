@@ -1,0 +1,15 @@
+<svg version="1.1"
+    baseProfile="full"
+    width="1000" height="600"
+    xmlns="http://www.w3.org/2000/svg">
+
+    <defs>
+        <linearGradient id="landing-page-gradient" x1="1" x2="0" y1="0" y2="0.75">
+            <stop offset="0%" stop-color="#d32f2f"/>
+            <!-- <stop offset="67%" stop-color="#7A6391"/> -->
+            <stop offset="100%" stop-color="#2196f3"/>
+        </linearGradient>
+    </defs>
+
+    <rect x="0" y="0" width="1000" height="600" fill="url(#landing-page-gradient)"/>
+</svg>

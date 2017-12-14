@@ -1,0 +1,16 @@
+<svg version="1.1"
+    baseProfile="full"
+    width="2000" height="450"
+    xmlns="http://www.w3.org/2000/svg">
+
+    <defs>
+        <linearGradient id="logo-red-blue">
+            <stop offset="18%" stop-color="#d32f2f"/>
+            <stop offset="58%" stop-color="#2196f3"/>
+        </linearGradient>
+    </defs>
+    <g tranform="translate(-110 10)">
+        <path id="JV" d="M 240 130 Q 240 130 250 255 Q 265 435 175 375 Q 55 305 350 250 Q 351 250 440 407 Q 441 408 650 20" stroke="#121212" stroke-width="47" stroke-linecap="round"/>
+        <path id="i" d="M471 408 " stroke="#121212" stroke-width="47" stroke-linecap="round"/>
+    </g>
+</svg>
