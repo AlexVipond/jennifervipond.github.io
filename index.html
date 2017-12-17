@@ -18,16 +18,37 @@
 
     <body>
         <header class="header">
-            <img class="logo" src="images/vipond-for-congress-light.svg" alt="Jennifer Vipond's campaign logo" onclick="location.href = 'index.html';"/>
+            <div class="logo-wrapper">
+                <img class="logo" src="images/vipond-for-congress-light.svg" alt="Jennifer Vipond's campaign logo" onclick="location.href = 'index.html';"/>
+            </div>
 
-            <h1>#VoteVipond</h1>
+            <h1><a href="https://twitter.com/search?f=tweets&q=%23VoteVipond&src=tyah" target="_blank">#VoteVipond<a></h1>
 
-            <ul class="menu">
-                <li><a href="about.html">About</a></li>
-                <li><a href="policy.html">Policy</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <a href="" target="_blank"><li class="button donate">Donate</li></a>
-            </ul>
+            <div class="menu-wrapper">
+                <ul class="menu">
+                    <li style="margin-top: 5em;"><a href="about.html">About</a></li>
+                    <li><a href="policy.html">Policy</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <a href="" target="_blank"><li class="button donate">Donate</li></a>
+                    <li style="position: absolute; bottom: 2em; right: 5vw;">#VoteVipond</li>
+                </ul>
+            </div>
+
+            <div class="menu-icon-wrapper">
+                <svg class="menu-icon" version="1.1" baseProfile="tiny" width="26" height="26" xmlns="http://www.w3.org/2000/svg">
+                    <rect class="menu-bar menu-bar-1" x="0" y="0" width="26" height="4" rx="2" ry="2" fill="var(--light)"/>
+                    <rect class="menu-bar menu-bar-2" x="0" y="9" width="26" height="4" rx="2" ry="2" fill="var(--light)"/>
+                    <rect class="menu-bar menu-bar-3" x="0" y="18" width="26" height="4" rx="2" ry="2" fill="var(--light)"/>
+                </svg>
+            </div>
+
+            <script>
+                let menu = document.querySelector(".menu-wrapper"), menuIcon = document.querySelector(".menu-icon");
+                menuIcon.onclick = function() {
+                    menuIcon.classList.toggle("open-menu");
+                    menu.classList.toggle("open-menu");
+                }
+            </script>
         </header>
 
         <div class="header fixed">
@@ -44,14 +65,16 @@
         </div>
 
         <section id="landing-page">
-            <img src="images/ostrich.jpg" alt="Photo of Jennifer Vipond">
+            <div class="background-wrapper">
+                <img class="background" src="images/ostrich.jpg" alt="Photo of Jennifer Vipond">
+            </div>
 
             <div id="gist">
                 <h1>Vote for Jennifer Vipond</h1>
                 <h2>to represent Wisconsin's 5th District</h2>
 
 
-            
+
                 <input id="first-name" type="text" name="first-name" value="" placeholder="First name">
                 <input id="email" type="email" name="email" value="" placeholder="Email">
                 <br>
