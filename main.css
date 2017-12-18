@@ -398,15 +398,24 @@ header {
 
 @media screen and (max-width: 600px) {
     #gist h1 {
-        font-size: 44px;
+        font-size: 40px;
+    }
+
+    #gist h1 span {
+        font-size: 28px;
     }
 
     #gist h2 {
         font-size: 22px;
     }
 
+    #gist h2 span {
+        display: block;
+    }
+
     #gist h1, #gist h2 {
         font-family: var(--sans);
+        font-weight: 400;
     }
 
     #gist #first-name {
