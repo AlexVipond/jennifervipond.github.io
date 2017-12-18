@@ -24,7 +24,7 @@ html,body {
     background-color: var(--light);
     color: var(--dark);
     width: 100%;
-    font-family: var(--sans), sans-serif;
+    font-family: var(--sans), Helvetica, Arial, sans-serif;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
@@ -61,7 +61,7 @@ a:hover {
 
 input[type="text"], input[type="email"] {
     outline: none;
-    font-family: var(--sans), sans-serif;
+    font-family: var(--sans), Helvetica, Arial, sans-serif;
     background-color: var(--light);
     color: var(--dark);
     padding: 5px 10px;
@@ -240,8 +240,14 @@ header {
 /* Mobile header positions */
 
 @media screen and (max-width: 600px) {
+    .header .logo-wrapper {
+        grid-column: 1 / 5;
+    }
+
     .header .logo {
-        margin-top: 26px;
+        margin-top: 18px;
+        margin-left: 16px;
+        height: 48px;
     }
 
     .header .menu {
@@ -298,7 +304,7 @@ header {
     .header .open-menu .menu {
         -webkit-transform: translateX(0px);
         transform: translateX(0px);
-        box-shadow: 0 0 100vw 40vw var(--dark);
+        box-shadow: 0 0 100vw 20vw var(--dark);
     }
 }
 
@@ -350,7 +356,7 @@ header {
         /* Landing page styles */
 
         #gist h1 {
-            font-family: var(--serif), sans-serif;
+            font-family: var(--serif), Georgia, sans-serif;
             color: var(--light);
             font-weight: 300;
             font-size: 54px;
@@ -358,7 +364,7 @@ header {
         }
 
         #gist h2 {
-            font-family: var(--serif), sans-serif;
+            font-family: var(--serif), Georgia, sans-serif;
             color: var(--light);
             font-weight: 300;
             font-size: 32px;
@@ -430,7 +436,7 @@ header {
     }
 
     #gist h1, #gist h2 {
-        font-family: var(--sans);
+        font-family: var(--sans), Helvetica, Arial, sans-serif;
         font-weight: 400;
     }
 
@@ -440,5 +446,40 @@ header {
 
     #gist #email {
         width: 75vw;
+    }
+}
+
+
+/* Main styles */
+
+main section p {
+    width: 700px;
+    margin: 29px calc(50vw - 350px) 29px calc(50vw - 350px);
+    font-size: 19px;
+    line-height: 1.58;
+    font-family: var(--serif), Georgia, serif;
+    font-weight: 300;
+    letter-spacing: .013rem;
+}
+
+
+/* Main styles for tablet */
+
+@media screen and (max-width: 900px) {
+    main section p {
+        width: auto;
+        margin: 29px 15vw;
+    }
+}
+
+
+/* Main styles for mobile */
+
+@media screen and (max-width: 600px) {
+    main section p {
+        font-family: var(--sans), Helvetica, Arial, sans-serif;
+        margin: 29px 10vw;
+        font-weight: 400;
+        letter-spacing: .006rem;
     }
 }
