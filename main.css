@@ -82,6 +82,10 @@ input[type="text"], input[type="email"] {
     stroke-dashoffset: -194.77;
 }
 
+.mobile-break {
+    display: none;
+}
+
 
 /* Header positions */
 
@@ -226,7 +230,7 @@ header {
 
 @media screen and (max-width: 600px) {
     .header .logo {
-        margin-top: 18px;
+        margin-top: 26px;
     }
 
     .header .menu {
@@ -363,3 +367,49 @@ header {
             width: 250px;
             margin: 8vh 0 0 1vw;
         }
+
+
+/* Tablet landing page styles */
+@media screen and (max-width: 900px) {
+    #landing-page {
+        grid-template-columns: 5vw 90vw 5vw;
+        grid-template-rows: 50vh 25vh 25vh;
+    }
+
+    #landing-page .background-wrapper {
+        display: none;
+    }
+
+    #landing-page #gist {
+        grid-column: 2 / 3;
+        grid-row: 1 / 4;
+        z-index: 1;
+        text-align: center;
+    }
+
+    #gist h1 span {
+        font-size: 32px;
+        display: block;
+        margin-bottom: .67em;
+    }
+}
+
+/* Mobile landing page styles */
+
+@media screen and (max-width: 600px) {
+    #gist h1 {
+        font-size: 44px;
+    }
+
+    #gist h2 {
+        font-size: 22px;
+    }
+
+    #gist h1, #gist h2 {
+        font-family: var(--sans);
+    }
+
+    #gist #first-name {
+        display: none;
+    }
+}

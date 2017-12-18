@@ -5,8 +5,8 @@
 
     <defs>
         <linearGradient id="logo-red-blue">
-            <stop offset="22%" stop-color="#d32f2f"/>
-            <stop offset="68%" stop-color="#2196f3"/>
+            <stop offset="22%" stop-color="#9a0007"/>
+            <stop offset="68%" stop-color="#0069c0"/>
         </linearGradient>
     </defs>
 
