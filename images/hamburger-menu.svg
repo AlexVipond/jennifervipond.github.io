@@ -1,0 +1,5 @@
+<svg class="menu-icon" version="1.1" baseProfile="tiny" width="32" height="28" xmlns="http://www.w3.org/2000/svg">
+    <rect class="menu-bar menu-bar-1" x="0" y="0" width="32" height="4" rx="2" ry="2" fill="#121212"/>
+    <rect class="menu-bar menu-bar-2" x="0" y="12" width="32" height="4" rx="2" ry="2" fill="#121212"/>
+    <rect class="menu-bar menu-bar-3" x="0" y="24" width="32" height="4" rx="2" ry="2" fill="#121212"/>
+</svg>
