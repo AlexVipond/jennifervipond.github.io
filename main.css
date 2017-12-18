@@ -86,6 +86,14 @@ input[type="text"], input[type="email"] {
     display: none;
 }
 
+/* General purpose tablet styles */
+
+@media screen and (max-width: 900px) {
+    .button {
+        border-radius: 14.5px;
+    }
+}
+
 
 /* Header positions */
 
@@ -263,6 +271,7 @@ header {
         color: var(--light);
         border: 1.5px solid var(--light);
         box-shadow: none;
+        border-radius: 4px;
     }
 
     .header .donate:hover {
@@ -359,8 +368,8 @@ header {
 
         #gist #submit-email {
             background-color: var(--light);
-            color: var(--darkAccent);
-            margin: 2vh 0;
+            color: var(--accent);
+            margin: 1.5em 0;
         }
 
         #gist #email {
