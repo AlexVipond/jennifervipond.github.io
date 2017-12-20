@@ -1,4 +1,4 @@
 <svg class="menu-icon" version="1.1" baseProfile="tiny" width="153" height="66" xmlns="http://www.w3.org/2000/svg">
     <text x="120" y="33" text-anchor="middle" fill="#121212" dominant-baseline="central" font-family="sans-serif" font-size="17px">Menu</text>
-    <path d="M120 64 A 31 31 0 1 1 120.00001 64 H -120" stroke="#121212" stroke-width="3" fill-opacity="0" stroke-dasharray="194.77" stroke-linecap="round"/>
+    <path d="M120 64 A 31 31 0 1 1 120.00001 64 H -120" stroke="#121212" stroke-width="2" fill-opacity="0" stroke-dasharray="194.77" stroke-linecap="round"/>
 </svg>
