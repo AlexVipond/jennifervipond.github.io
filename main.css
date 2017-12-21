@@ -302,8 +302,8 @@ nav {
     }
 
     nav .logo-wrapper {
-        text-align: left;
-        grid-column: 2 / 6;
+        text-align: center;
+        grid-column: 1 / 6;
     }
 
     nav .logo {
