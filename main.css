@@ -457,10 +457,6 @@ header {
             font-size: 54px;
         }
 
-        .landing-page #gist h1 {
-            text-align: left;
-        }
-
         #gist h2 {
             font-family: var(--serif), Georgia, sans-serif;
             color: var(--light);
@@ -534,7 +530,6 @@ header {
     }
 
     #gist h1, #gist h2 {
-        /* font-family: var(--sans), Helvetica, Arial, sans-serif; */
         line-height: 1.58;
         font-weight: 400;
     }
@@ -575,11 +570,15 @@ main .first-p {
     margin-top: 1.6em;
 }
 
-main p {
+main p, main li {
     font-size: 19px;
     line-height: 1.58;
     font-family: var(--serif), Georgia, serif;
     font-weight: 300;
+    letter-spacing: .014rem;
+}
+
+main p {
     margin: 1.2em 0;
 }
 
@@ -596,13 +595,6 @@ main blockquote {
 
 main ul, main ol {
     padding-left: 3.2em;
-}
-
-main li {
-    font-size: 19px;
-    line-height: 1.58;
-    font-family: var(--serif), Georgia, serif;
-    font-weight: 300;
 }
 
 
@@ -627,7 +619,7 @@ main li {
     }
 
     main p, main li {
-        letter-spacing: .006rem;
+        letter-spacing: .008rem;
         line-height: 1.42;
         font-size: 17px;
     }
