@@ -1,8 +1,6 @@
 let page = document.querySelector('html'),
     nav = document.querySelector('nav'),
-    header = document.querySelector('header'),
-    main = document.querySelector('main'),
-    mainPadding = Number(getComputedStyle(main).getPropertyValue('padding-top').replace(/px/,''));
+    header = document.querySelector('header');
 
 let scrollTop, navHeight, headerHeight, breakPoint;
 
