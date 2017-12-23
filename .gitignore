@@ -1,2 +1,5 @@
 # Ignore macosx DS Store files
 .DS_Store
+
+# Ignore Jekyll site directory
+_site/
