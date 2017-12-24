@@ -386,7 +386,7 @@ header {
     top: 0;
     left: 0;
     width: 100vw;
-    background-image: url("images/landing-page-gradient.svg");
+    background-image: url("/images/landing-page-gradient.svg");
     background-size: 100vw 33vh;
     background-repeat: no-repeat;
     overflow: hidden;
