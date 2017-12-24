@@ -409,10 +409,6 @@ header {
     height: 33vh;
 }
 
-.pseudo-landing-page {
-    height: 110vh;
-}
-
     header .background-wrapper {
         grid-column: 1 / 4;
         grid-row: 1 / 2;
