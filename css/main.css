@@ -74,6 +74,11 @@ input[type="text"], input[type="email"] {
     border: none;
 }
 
+button[type="submit"] {
+    font-family: var(--sans), Helvetica, Arial, sans-serif;
+    border: none;
+}
+
 .menu-icon {
     display: none;
     cursor: pointer;
@@ -115,7 +120,7 @@ nav {
     top: 0;
     left: 0;
     z-index: 1;
-    padding: .6em 0;
+    padding: 1em 0;
 }
 
 nav {
@@ -133,9 +138,9 @@ nav {
     }
 
     nav .logo {
-        height: 40px;
-        width: 50.7px;
-        margin-top: .4em;
+        height: 35px;
+        width: 44.33px;
+        margin-top: .2em;
         transition: all .2s ease;
         z-index: 0;
         position: relative;
@@ -154,7 +159,7 @@ nav {
         grid-column: 2 / 3;
         grid-row: 1 / 2;
         display: inline;
-        margin-top: .8em;
+        margin: 0;
         font-weight: 400;
         font-size: 24px;
         position: relative;
@@ -266,11 +271,20 @@ nav {
 
     .fixed .menu-icon path {
         stroke: var(--theme);
+        fill: var(--light);
+    }
+
+    .fixed .menu-icon text {
         fill: var(--theme);
     }
 
     .fixed .open-menu path {
         stroke: var(--light);
+        fill: var(--theme);
+    }
+
+    .fixed .open-menu text {
+        fill: var(--light);
     }
 
 
