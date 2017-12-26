@@ -1,1 +1,102 @@
+<html>
+    <head>
+        <script>
+            document.addEventListener('DOMContentLoaded', function(){});
+        </script>
 
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58906424-3"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-58906424-3');
+        </script>
+        <!-- End Google Analytics -->
+
+        <title>{{ page.title }}</title>
+
+        <meta charset="utf-8">
+        <meta name="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+        <link rel="shortcut icon" href="/images/vipond-for-congress.ico">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
+        <link rel="stylesheet" href="/css/main.css">
+
+        <meta name="description" content="{{ page.title }} article from the policy blog on the campaign website for Jennifer Vipond's 2018 congressional run">
+        <meta name="keywords" content="jennifer, vipond, wisconsin, congress, 2018, moderate, republican, democrat, doctor">
+        <meta name="author" content="Jennifer Vipond">
+    </head>
+
+    <body>
+        <nav class="nav">
+            <div class="logo-wrapper">
+                <svg class="logo" alt="Jennifer Vipond's campaign logo" onclick="location.href = 'index.html';" version="1.1" baseProfile="full" width="570" height="450" viewBox="0 0 570 450" preserveAspectRatio="xMinYMin meet" xmlns="http://www.w3.org/2000/svg">
+                    <path transform="translate(-110 10)" d="M 240 130 Q 240 130 250 255 Q 265 435 175 375 Q 55 305 350 250 Q 351 250 440 407 Q 441 408 650 20" fill="none" stroke-width="30" stroke-linecap="round"/>
+                </svg>
+            </div>
+
+            <h1><a href="https://twitter.com/search?f=tweets&q=%23VoteVipond&src=tyah" target="_blank">#VoteVipond<a></h1>
+
+            <div class="menu-wrapper">
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="/policy">Policy</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                    <li class="button donate">Donate</li>
+                    <li>#VoteVipond</li>
+                </ul>
+            </div>
+
+            <div class="menu-icon-wrapper">
+                <svg class="menu-icon" baseProfile="tiny" width="152" height="66" viewBox="0 0 152 66" preserveAspectRatio="xMinYMin meet">
+                    <path d="M120 64 A 31 31 0 1 1 120.00001 64 H -120" stroke-width="2" fill-opacity="1" stroke-dasharray="194.77" stroke-linecap="round"/>
+                    <text x="120" y="33" text-anchor="middle" dominant-baseline="central">Menu</text>
+                </svg>
+            </div>
+
+            <script src="/scripts/open-menu.js"></script>
+        </nav>
+
+        <header>
+            <div id="gist">
+                <h1>Policy Blog</h1>
+            </div>
+        </header>
+
+        <div class="pseudo-header"></div>
+
+        <main>
+            <article>
+                {{ content }}
+            </article>
+        </main>
+
+        <script src="/scripts/nav-transition.js"></script>
+
+        <footer>
+            <div class="logo-wrapper">
+                <svg class="logo" alt="Jennifer Vipond's campaign logo" onclick="location.href = 'index.html';" baseProfile="full" width="570" height="450" viewBox="0 0 570 450" width="570" height="450" preserveAspectRatio="xMinYMin meet">
+                    <path transform="translate(-110 10)" d="M 240 130 Q 240 130 250 255 Q 265 435 175 375 Q 55 305 350 250 Q 351 250 440 407 Q 441 408 650 20" fill="none" stroke-width="30" stroke-linecap="round"/>
+                </svg>
+            </div>
+
+            <div class="menu-wrapper">
+                <ul class="menu">
+                    <li>MENU</li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="/policy">Policy</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                    <li class="button donate">Donate</li>
+                </ul>
+            </div>
+
+            <p>&copy; 2017 Jennifer Vipond<br><a href="https://github.com/jennifervipond/jennifervipond.github.io" target="_blank"><img src="/images/GitHub-Mark-Light-32px.png" alt="GitHub icon" style="height: 15px; vertical-align: middle;"> View on Github</a></p>
+        </footer>
+    </body>
+</html>
