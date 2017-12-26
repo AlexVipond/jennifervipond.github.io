@@ -1,8 +1,6 @@
 # Vipond for Congress
 Dr. Jennifer Vipond's website for her 2018 Congressional Campaign
 
----
-
 ## Purpose
 As you may have guessed, this website was built to help Dr. Vipond tell the residents of Wisconsin's 5th District why she wants to represent them in Congress, and why they should vote for her. But that's not the website's _only_ purpose.
 
