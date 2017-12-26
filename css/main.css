@@ -88,7 +88,7 @@ input[type="text"], input[type="email"] {
 
 .menu-icon path {
     stroke-dashoffset: 0;
-    transition: all .3s ease-out;
+    transition: all .5s ease-in-out;
 }
 
 .open-menu path {
@@ -313,14 +313,14 @@ nav {
         text-align: left;
         top: 0;
         right: 0;
-        -webkit-transform: translateX(204px);
-        transform: translateX(204px);
         height: calc(100vh - 5.5em + 11px);
         width: 124px;
         background-color: var(--theme);
         transition: all .3s ease-out;
         padding: 5.5em 40px 0 40px;
         margin: 0;
+        -webkit-transform: translateX(204px) translateY(-100vh) scale(0);
+        transform: translateX(204px) translateY(-100vh) scale(0);
     }
 
     nav li {
@@ -364,8 +364,8 @@ nav {
     }
 
     nav .open-menu .menu {
-        -webkit-transform: translateX(0px);
-        transform: translateX(0px);
+        -webkit-transform: translateX(0) translateY(0) scale(1);
+        transform: translateX(0) translateY(0) scale(1);
         box-shadow: 0 0 100vw 20vw var(--dark);
     }
 
