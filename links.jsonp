@@ -1,0 +1,33 @@
+callback([
+
+  {
+    "text": "Home",
+    "href": "/"
+  } ,
+
+  {
+    "text": "About",
+    "href": "/index.html#about"
+  } ,
+
+  {
+    "text": "Contact",
+    "href": "/index.html#contact"
+  } ,
+
+  {
+    "text": "Policy",
+    "href": "/policy"
+  } ,
+
+  {
+    "text": "Donate",
+    "href": "/"
+  } ,
+
+  {
+    "text": "Join mailing list",
+    "href": "/"
+  }
+
+])

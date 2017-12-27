@@ -420,31 +420,6 @@ header {
     height: 33vh;
 }
 
-    header .background-wrapper {
-        grid-column: 1 / 4;
-        grid-row: 1 / 2;
-        width: 100vw;
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: 0;
-        height: 33vh;
-    }
-
-    .landing-page .background-wrapper {
-        height: 100vh;
-        grid-row: 1 / 4;
-    }
-
-    header .background {
-        filter: grayscale(100%);
-        width: 100vw;
-    }
-
-    .landing-page .background {
-        opacity: .35;
-    }
-
     header #gist {
         grid-column: 2 / 3;
         grid-row: 1 / 2;

@@ -42,6 +42,7 @@ prose:
         field:
           element: "text"
           label: "title"
+          value: ""
       - name: "date"
         field:
           element: "hidden"
