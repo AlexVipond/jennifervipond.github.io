@@ -1,2 +1,48 @@
 name: Jennifer Vipond for Congress
 markdown: kramdown
+prose:
+  rooturl: '_posts'
+  siteurl: 'https://jennifervipond.github.io'
+  media: 'images/blog-media'
+  ignore:
+    - index.html
+    - _config.yml
+    - /_layouts
+    - /_includes
+    - /css
+    - /scripts
+    - .gitignore
+    - Gemfile
+    - Gemfile.lock
+    - LICENSE
+    - README.md
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Add Tags"
+          placeholder: "Choose Tags"
+          options:
+            - name: "Common Sense Leadership"
+              value: "common-sense-leadership"
+            - name: "Opioid Epidemic"
+              value: "opioid-epidemic"
+            - name: "Medical Care"
+              value: "medical-care"
+            - name: "Second Amendment"
+              value: "second-amendment"
+            - name: "Evidence-based policy"
+              value: "evidence-based-policy"
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
+      - name: "date"
+        field:
+          element: "hidden"
+          value: CURRENT_DATETIME
