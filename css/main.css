@@ -557,10 +557,6 @@ main {
     padding: 52px 0;
 }
 
-main section {
-    padding: 1.6em 0;
-}
-
 main h1 {
     margin: 1.6em 0 .4em 0;
 }
@@ -669,7 +665,7 @@ main .blog-post {
 /* Main styles for tablet */
 
 @media screen and (max-width: 900px) {
-    main section {
+    main .grid, main .blog-post {
         padding: 1.6em 15vw;
     }
 
