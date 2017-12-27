@@ -48,7 +48,7 @@ prose:
           element: "hidden"
           value: CURRENT_DATETIME
       - name: "published"
-          field:
-            element: "checkbox"
-            label: "Publish this post?"
-            value: "false"
+        field:
+          element: "checkbox"
+          label: "Publish this post?"
+          value: false
