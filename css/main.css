@@ -662,7 +662,6 @@ main .paragraphs-gist .paragraphs {
 }
 
 main .blog-post {
-    width: 700px;
     padding: 1.6em calc((100vw - 700px) / 2);
 }
 
