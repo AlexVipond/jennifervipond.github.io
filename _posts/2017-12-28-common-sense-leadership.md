@@ -1,6 +1,6 @@
 ---
 date: '2017-12-28 17:29 -0600'
-layout: post
+layout: policy
 published: true
 title: Common Sense Leadership
 tags:

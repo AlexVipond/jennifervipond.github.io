@@ -22,7 +22,7 @@ prose:
       - name: "layout"
         field:
           element: "hidden"
-          value: "post"
+          value: "policy"
       - name: "tags"
         field:
           element: "multiselect"
