@@ -644,6 +644,10 @@ main .blog-post .post-summary {
     border-top: 2px solid var(--theme);
 }
 
+main .blog-post .post-summary h2, main .blog-post .post-summary h3 {
+    text-align: left;
+}
+
 main .blog-post .post-summary:nth-child(2) {
     border: none;
 }
