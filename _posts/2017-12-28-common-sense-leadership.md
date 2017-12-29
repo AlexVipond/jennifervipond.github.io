@@ -9,6 +9,10 @@ tags:
   - medical-care
   - second-amendment
   - evidence-based-policy
+excerpt: >-
+  My name is Dr. Jennifer Hoppe Vipond, and I am running to represent
+  Wisconsin’s fifth congressional district in the United States House of
+  Representatives.
 ---
 My name is Dr. Jennifer Hoppe Vipond, and I am running to represent Wisconsin’s fifth congressional district in the United States House of Representatives.
 
