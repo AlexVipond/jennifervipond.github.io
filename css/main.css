@@ -237,7 +237,6 @@ nav {
     right: 0;
     z-index: 1;
     background-color: var(--light);
-    border-bottom: 2px solid var(--theme);
 }
 
     .fixed h1 {
@@ -633,9 +632,12 @@ main .blog-post {
     padding: 1.6em calc((100vw - 700px) / 2);
 }
 
+main .blog-post h2, main .blog-post h3 {
+    text-align: center;
+}
+
 main .blog-post > p:first-of-type {
-    padding-top: 1.6em;
-    border-top: 2px solid var(--theme);
+    margin-top: 2em;
 }
 
 main .blog-post .post-summary {
