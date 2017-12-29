@@ -639,7 +639,11 @@ main .blog-post > p:first-of-type {
 }
 
 main .blog-post .post-summary {
-    border-bottom: 2px solid var(--theme);
+    border-top: 2px solid var(--theme);
+}
+
+main .blog-post .post-summary:nth-child(2) {
+    border: none;
 }
 
 
