@@ -44,6 +44,11 @@ prose:
           element: "text"
           label: "title"
           value: ""
+      - name: "subtitle"
+        field:
+          element: "text"
+          label: "subtitle"
+          value: ""
       - name: "date"
         field:
           element: "hidden"
