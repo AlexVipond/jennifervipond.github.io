@@ -27,7 +27,7 @@ prose:
         field:
           element: "multiselect"
           label: "Add Tags"
-          placeholder: "Choose Tags"
+          placeholder: "Choose tags"
           options:
             - name: "Common Sense Leadership"
               value: "common-sense-leadership"
@@ -48,6 +48,12 @@ prose:
         field:
           element: "hidden"
           value: CURRENT_DATETIME
+      - name: "excerpt"
+        field:
+          element: "textarea"
+          label: "Excerpt"
+          value: ""
+          placeholder: "Copy/paste excerpt here"
       - name: "published"
         field:
           element: "checkbox"
