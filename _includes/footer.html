@@ -19,4 +19,21 @@
     </div>
 
     <p>&copy; 2017 Jennifer Vipond<br><a href="https://github.com/jennifervipond/jennifervipond.github.io" target="_blank" rel="noopener"><img src="/images/GitHub-Mark-Light-32px.png" alt="GitHub icon" style="height: 15px; vertical-align: middle;"> View on Github</a></p>
+
+    <script defer>
+        let css = [
+            {'name': 'normalize', 'media': 'all'},
+            {'name': 'external', 'media': 'all'},
+            {'name': '900', 'media': '(max-width: 900px)'},
+            {'name': '600', 'media': '(max-width: 600px)'}
+        ],description = document.querySelector('meta[name="description"]');
+        css.forEach((e,i,a) => {
+            var e = document.createElement('link');
+            e.rel = 'stylesheet';
+            e.href = '/css/' + a[i].name + '.css';
+            e.type = 'text/css';
+            e.media = a[i].media;
+            description.parentNode.insertBefore(e, description);
+        })
+    </script>
 </footer>
