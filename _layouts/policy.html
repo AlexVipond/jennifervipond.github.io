@@ -15,7 +15,7 @@
         </script>
         <!-- End Google Analytics -->
 
-        <title>{{ page.title }}</title>
+        <title>Policy Blog</title>
 
         <meta charset="utf-8">
         <meta name="X-UA-Compatible" content="IE=edge">
@@ -23,8 +23,8 @@
 
         <link rel="shortcut icon" href="/images/vipond-for-congress.ico">
 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
-        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/css/normalize.css">
+        <link rel="stylesheet" href="/css/external.css">
         <link rel="stylesheet" href="/css/900.css" media="(max-width: 900px)">
         <link rel="stylesheet" href="/css/600.css" media="(max-width: 600px)">
 
@@ -34,38 +34,13 @@
     </head>
 
     <body>
-        <nav class="nav">
-            <div class="logo-wrapper">
-                <svg class="logo" alt="Jennifer Vipond's campaign logo" onclick="location.href = '/';" version="1.1" baseProfile="full" width="570" height="450" viewBox="0 0 570 450" preserveAspectRatio="xMinYMin meet" xmlns="http://www.w3.org/2000/svg">
-                    <path transform="translate(-110 10)" d="M 240 130 Q 240 130 250 255 Q 265 435 175 375 Q 55 305 350 250 Q 351 250 440 407 Q 441 408 650 20" fill="none" stroke-width="30" stroke-linecap="round"/>
-                </svg>
-            </div>
-
-            <h1><a href="https://twitter.com/search?f=tweets&q=%23VoteVipond&src=tyah" target="_blank">#VoteVipond<a></h1>
-
-            <div class="menu-wrapper">
-                <ul class="menu">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/index.html#about">About</a></li>
-                    <li><a href="/policy">Policy</a></li>
-                    <li><a href="/index.html#contact">Contact</a></li>
-                    <li class="button donate">Donate</li>
-                    <li>#VoteVipond</li>
-                </ul>
-            </div>
-
-            <div class="menu-icon-wrapper">
-                <svg class="menu-icon" baseProfile="tiny" width="152" height="66" viewBox="0 0 152 66" preserveAspectRatio="xMinYMin meet">
-                    <path d="M120 64 A 31 31 0 1 1 120.00001 64 H -120" stroke-width="2" fill-opacity="1" stroke-dasharray="194.77" stroke-linecap="round"/>
-                    <text x="120" y="33" text-anchor="middle" dominant-baseline="central">Menu</text>
-                </svg>
-            </div>
-
-            <script src="/scripts/open-menu.js"></script>
-        </nav>
+        {% include colorsCSS.html %}
+        {% include navCSS.min.html %}
+        {% include nav.html %}
+        {% include headerCSS.html %}
 
         <header>
-            <div style="background-image: url(/images/blog-media/capitol.jpg); background-size: cover; background-repeat: no-repeat; background-position: center top; filter: grayscale(100%) opacity(.35); position: absolute; top: 0; right: 0; width: 100vw; height: 100vh;">
+            <div class="bg-img" style="background-image: url(/images/blog-media/capitol.jpg); opacity: .35;">
             </div>
 
             <div id="gist">
@@ -84,27 +59,7 @@
             </article>
         </main>
 
-        <script src="/scripts/nav-transition.js"></script>
-
-        <footer>
-            <div class="logo-wrapper">
-                <svg class="logo" alt="Jennifer Vipond's campaign logo" onclick="location.href = 'index.html';" baseProfile="full" width="570" height="450" viewBox="0 0 570 450" width="570" height="450" preserveAspectRatio="xMinYMin meet">
-                    <path transform="translate(-110 10)" d="M 240 130 Q 240 130 250 255 Q 265 435 175 375 Q 55 305 350 250 Q 351 250 440 407 Q 441 408 650 20" fill="none" stroke-width="30" stroke-linecap="round"/>
-                </svg>
-            </div>
-
-            <div class="menu-wrapper">
-                <ul class="menu">
-                    <li>MENU</li>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/index.html#about">About</a></li>
-                    <li><a href="/policy">Policy</a></li>
-                    <li><a href="/index.html#contact">Contact</a></li>
-                    <li class="button donate">Donate</li>
-                </ul>
-            </div>
-
-            <p>&copy; 2017 Jennifer Vipond<br><a href="https://github.com/jennifervipond/jennifervipond.github.io" target="_blank"><img src="/images/GitHub-Mark-Light-32px.png" alt="GitHub icon" style="height: 15px; vertical-align: middle;"> View on Github</a></p>
-        </footer>
+        {% include emailCSS.html %}
+        {% include footer.html %}
     </body>
 </html>
