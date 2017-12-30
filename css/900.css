@@ -1,0 +1,64 @@
+/* Global */
+
+.button {
+    border-radius: 14.5px;
+}
+
+/* Tablet nav */
+
+nav h1 {
+    display: none;
+}
+
+nav .logo-wrapper {
+    text-align: left;
+    grid-column: 2 / 5;
+}
+
+/* Landing page */
+
+.landing-page {
+    grid-template-columns: 5vw 90vw 5vw;
+    grid-template-rows: 50vh 25vh 25vh;
+}
+
+.landing-page .background-wrapper {
+    display: none;
+}
+
+.landing-page #gist {
+    grid-column: 2 / 3;
+    grid-row: 1 / 4;
+    z-index: 1;
+    text-align: center;
+}
+
+#gist h1 span {
+    font-size: 32px;
+    display: block;
+    margin-bottom: .67em;
+}
+
+
+/* Main */
+
+main .grid, main .blog-post {
+    padding: 1.6em 10vw;
+}
+
+main .grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+}
+
+main .grid .gist {
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+    margin: 0;
+    text-align: left;
+}
+
+main .grid .paragraphs {
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+}
