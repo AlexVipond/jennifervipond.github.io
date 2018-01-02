@@ -1,6 +1,4 @@
 <style>
-    /* Global styles */
-
     input[type="text"], input[type="email"] {
         outline: none;
         font-family: var(--sans), Helvetica, Arial, sans-serif;
@@ -10,12 +8,49 @@
         border: none;
     }
 
-    label[for="first-name"],label[for="email"] {
+    #gist input[name="first-name"] {
         display: none;
+    }
+
+    #gist input[name="email"] {
+        width: 75vw;
     }
 
     button[type="submit"] {
         font-family: var(--sans), Helvetica, Arial, sans-serif;
         border: none;
+    }
+
+    #gist button[name="submit-email"] {
+        background-color: var(--light);
+        color: var(--accent);
+        margin: 1.5em 0;
+    }
+
+    @media screen and (min-width: 600px) {
+        #gist input[name="first-name"] {
+            display: inline-block;
+        }
+
+        #gist input[name="email"] {
+            width: 250px;
+            margin: 8vh 0 0 1vw;
+        }
+
+    }
+
+    @media screen and (min-width: 900px) {
+        input[type="text"], input[type="email"] {
+            border-radius: 14px;
+            padding: 5px 15px;
+        }
+
+        #gist .button:hover {
+            box-shadow: 0px 0px 6px 0px var(--accentDark), 0px 6px 6px 0px var(--accentDark);
+        }
+
+        #gist .button:active {
+            box-shadow: none;
+        }
     }
 </style>

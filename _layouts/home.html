@@ -37,11 +37,11 @@
 
     <body>
         {% include colorsCSS.html %}
-        {% include navCSS.min.html %}
+        {% include navCSS.html %}
         {% include nav.html %}
         {% include emailCSS.html %}
         {% include headerCSS.html %}
-        {% include landingPageCSS.min.html %}
+        {% include landingPageCSS.html %}
 
         <header class="landing-page">
             <div class="bg-img" style="background-image: url(/images/ostrich.jpg); opacity: .35;"></div>
@@ -51,9 +51,9 @@
                 <h2>to represent <span>Wisconsin's 5th District</span></h2>
 
                 <form class="" action="index.html" method="post">
-                    <input id="first-name" type="text" name="first-name" value="" placeholder="First name" aria-label="first name">
-                    <input id="email" type="email" name="email" value="" placeholder="Email" aria-label="email"><br>
-                    <button id="submit-email" class="button" type="submit" name="submit-email">Join mailing list</button>
+                    <input type="text" name="first-name" value="" placeholder="First name" aria-label="first name">
+                    <input type="email" name="email" value="" placeholder="Email" aria-label="email"><br>
+                    <button class="button" type="submit" name="submit-email">Join mailing list</button>
                 </form>
             </div>
 
