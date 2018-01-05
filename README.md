@@ -17,6 +17,7 @@ The technology stack used to create and maintain [vipondforcongress.com](https:/
 - SimpleForm (email subscription form)
 - Jekyll (static site generation)
 - Github Pages (hosting)
+- Cloudflare (content delivery network and universal SSL)
 - Prose.io (content editing)
 - Mail for Good (email marketing)
 

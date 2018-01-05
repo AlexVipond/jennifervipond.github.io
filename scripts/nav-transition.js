@@ -5,8 +5,8 @@ let scrollTop, navHeight, headerHeight, breakPoint;
 
 window.addEventListener('scroll', function() {
     scrollTop = window.pageYOffset;
-    navHeight = nav.offsetHeight;
-    headerHeight = header.offsetHeight;
+    navHeight = nav.getBoundingClientRect().height;
+    headerHeight = header.getBoundingClientRect().height;
     breakPoint = headerHeight * .7;
 
     if(scrollTop > 0 && scrollTop < navHeight) {

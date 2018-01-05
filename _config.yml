@@ -2,8 +2,8 @@ name: Jennifer Vipond for Congress
 markdown: kramdown
 prose:
   rooturl: '_posts'
-  siteurl: 'https://jennifervipond.github.io'
-  relativeLinks: 'https://jennifervipond.github.io/prose-links.jsonp'
+  siteurl: 'https://www.vipondforcongress.com'
+  relativeLinks: 'https://www.vipondforcongress.com/prose-links.jsonp'
   media: 'images/blog-media'
   ignore:
     - index.html
