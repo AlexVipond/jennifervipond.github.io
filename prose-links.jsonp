@@ -9,7 +9,7 @@ callback([
 
   {
     "text": "About",
-    "href": "/index.html#about"
+    "href": "/about/"
   } ,
 
   {
@@ -18,17 +18,17 @@ callback([
   } ,
 
   {
-    "text": "Policy",
-    "href": "/policy"
+    "text": "Policy Blog",
+    "href": "/policy/"
   } ,
 
   {
     "text": "Donate",
-    "href": "/"
+    "href": "/donate.html"
   } ,
 
   {
-    "text": "Join mailing list",
+    "text": "Subscribe to newsletter",
     "href": "/"
   }
 
