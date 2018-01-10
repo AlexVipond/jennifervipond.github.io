@@ -25,14 +25,17 @@
 
         <noscript>
             <link rel="stylesheet" href="/css/normalize.css">
-            <link rel="stylesheet" href="/css/external.css">
-            <link rel="stylesheet" href="/css/900.css" media="(max-width: 900px)">
-            <link rel="stylesheet" href="/css/600.css" media="(max-width: 600px)">
+            <link rel="stylesheet" href="/css/deferred.css">
+            <link rel="stylesheet" href="/css/600.css" media="(min-width: 600px)">
+            <link rel="stylesheet" href="/css/900.css" media="(min-width: 900px)">
         </noscript>
 
         <meta name="description" content="{{ page.title }} page of campaign website for Jennifer Vipond's 2018 congressional run">
         <meta name="keywords" content="jennifer, vipond, wisconsin, congress, 2018, moderate, republican, democrat, doctor">
         <meta name="author" content="Jennifer Vipond">
+
+        <script src="https://donorbox.org/install-popup-button.js" type="text/javascript" defer></script>
+        <script> window.DonorBox = { widgetLinkClassName: 'custom-dbox-popup' } </script>
     </head>
 
     <body>
@@ -47,21 +50,21 @@
             <div class="bg-img" style="background-image: url(/images/ostrich.jpg); opacity: .35;"></div>
 
             <div id="gist">
-                <h1><span>Vote for </span>Jennifer Hoppe Vipond</h1>
+                <h1><span>Vote </span>Jennifer Hoppe Vipond</h1>
                 <h2>to represent <span>Wisconsin's 5th District</span></h2>
 
                 <form class="" action="index.html" method="post">
                     <input type="text" name="first-name" value="" placeholder="First name" aria-label="first name">
                     <input type="email" name="email" value="" placeholder="Email" aria-label="email"><br>
-                    <button class="button" type="submit" name="submit-email">Join mailing list</button>
+                    <button class="button" type="submit" name="submit-email">Subscribe to newsletter</button>
                 </form>
             </div>
 
         </header>
 
-        <div class="pseudo-landing-page">
+        <div class="pseudo-landing-page"></div>
 
-        </div>
+        {% include indexCSS.html %}
 
         <main>
             <article>

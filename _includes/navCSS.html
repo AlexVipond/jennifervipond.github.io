@@ -2,10 +2,10 @@
     * {margin: 0; padding: 0;}
 
     html,body {
-        background-color: var(--light);
-        color: var(--dark);
+        background-color: #fefefe;
+        color: #121212;
         width: 100%;
-        font-family: var(--sans), Helvetica, Arial, sans-serif;
+        font-family: 'Lato', Helvetica, Arial, sans-serif;
         margin: 0;
         padding: 0;
         overflow-x: hidden;
@@ -37,7 +37,7 @@
     }
 
     .menu-icon text {
-        font-family: var(--sans);
+        font-family: 'Lato';
         font-size: 17px;
     }
 
@@ -60,7 +60,7 @@
         display: grid;
         grid-template-rows: auto;
         align-items: center;
-        color: var(--light);
+        color: #fefefe;
     }
 
         nav h1 {
@@ -79,7 +79,7 @@
             right: 0;
             height: calc(100vh - 5.5em + 11px);
             width: 124px;
-            background-color: var(--theme);
+            background-color: #9a0007;
             list-style-type: none;
             transition: all .3s ease-out;
             padding: 5.5em 40px 0 40px;
@@ -103,21 +103,21 @@
 
 
             nav a {
-                color: var(--light);
+                color: #fefefe;
             }
 
             nav .donate {
                 display: inline-block;
                 background-color: transparent;
-                color: var(--light);
-                border: 1.5px solid var(--light);
+                color: #fefefe;
+                border: 1.5px solid #fefefe;
                 box-shadow: none;
                 margin: 1em 0 0 0;
             }
 
             nav .donate:hover {
-                background-color: var(--light);
-                color: var(--theme);
+                background-color: #fefefe;
+                color: #9a0007;
                 opacity: 1;
             }
 
@@ -132,11 +132,11 @@
             }
 
             nav .menu-icon text {
-                fill: var(--light);
+                fill: #fefefe;
             }
 
             nav .menu-icon path {
-                stroke: var(--light);
+                stroke: #fefefe;
                 fill: rgba(0, 0, 0, 0);
             }
 
@@ -144,7 +144,7 @@
         nav .open-menu .menu {
             -webkit-transform: translateX(0) scaleX(1);
             transform: translateX(0) scaleX(1);
-            box-shadow: 0 0 100vw 20vw var(--dark);
+            box-shadow: 0 0 100vw 20vw #121212;
         }
 
     @media screen and (min-width: 600px) {
@@ -170,7 +170,7 @@
             }
 
             nav .logo path {
-                stroke: var(--light);
+                stroke: #fefefe;
             }
 
         nav .menu-wrapper {
@@ -207,19 +207,9 @@
                 nav .donate {
                     margin: 0 0 0 1vw;
                     padding: 5px 10px 5px 10px;
-                    background-color: var(--light);
-                    color: var(--theme);
+                    background-color: #fefefe;
+                    color: #9a0007;
                     border: none;
-                }
-
-                nav .donate:hover {
-                    box-shadow: 0px 0px 6px 0px var(--themeDark), 0px 6px 6px 0px var(--themeDark);
-                }
-
-                nav .donate:active {
-                    -webkit-transform: translateY(1px);
-                    transform: translateY(1px);
-                    box-shadow: none;
                 }
 
             nav .menu-icon-wrapper {
@@ -243,26 +233,40 @@
             transform: translateY(1px);
         }
 
-            nav h1 {
-                display: block;
-                grid-column: 2 / 3;
-                grid-row: 1 / 2;
-                display: inline;
-                margin: 0;
-                font-weight: 400;
-                font-size: 19px;
-                position: relative;
-                z-index: 0;
+        nav h1 {
+            display: block;
+            grid-column: 2 / 3;
+            grid-row: 1 / 2;
+            display: inline;
+            margin: 0;
+            font-weight: 400;
+            font-size: 19px;
+            position: relative;
+            z-index: 0;
+        }
+
+        nav .logo-wrapper {
+            grid-column: 1 / 5;
+            text-align: center;
+        }
+
+            nav .logo:hover {
+                opacity: .7;
+                cursor: pointer;
             }
 
-            nav .logo-wrapper {
-                grid-column: 1 / 5;
-                text-align: center;
-            }
+        nav .donate {
+            box-shadow: 0px 0px 2px 0px #56090D, 0px 2px 2px 0px #56090D;
+        }
 
-                nav .logo:hover {
-                    opacity: .7;
-                    cursor: pointer;
-                }
+        nav .donate:hover {
+            box-shadow: 0px 0px 6px 0px #56090D, 0px 6px 6px 0px #56090D;
+        }
+
+        nav .donate:active {
+            -webkit-transform: translateY(1px);
+            transform: translateY(1px);
+            box-shadow: 0px 0px 2px 0px #56090D, 0px 2px 2px 0px #56090D;
+        }
     }
 </style>

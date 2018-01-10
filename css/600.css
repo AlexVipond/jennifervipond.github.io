@@ -1,43 +1,81 @@
-/* Nav */
+/* Fixed nav */
 
 .fixed {
-    background-color: transparent;
-    border: none;
+    background-color: var(--light);
+    border-top: 1.5px solid var(--theme);
+}
+
+    .fixed a {
+        color: var(--theme);
+    }
+
+    .fixed .logo path {
+        stroke: var(--theme);
+    }
+
+    .fixed .donate {
+        background-color: var(--theme);
+        color: var(--light);
+        box-shadow: 0px 0px 2px 0px #c3c3c3, 0px 2px 2px 0px #c3c3c3;
+    }
+
+
+/* Main positions */
+
+main .grid, main .blog-post {
+    padding: 1.6em 10vw;
 }
 
 
-/* Main */
+/* Main styles */
 
-main section, main .grid, main .blog-post {
-    padding: 29px 5vw;
-}
-
-main ul, main ol {
-    padding-left: 2em;
-}
 
 main p, main li {
-    letter-spacing: .008rem;
-    line-height: 1.42;
-    font-size: 17px;
+    font-size: 19px;
+    line-height: 1.58;
+    letter-spacing: .014rem;
 }
 
 main .theme p, main .theme li, main .accent p, main .accent li {
     letter-spacing: .017rem;
-    font-size: 16.35px;
+    font-size: 17.85px;
 }
 
+main h2 {
+    font-size: 2em;
+}
 
-/* Footer */
+main h3 {
+    font-size: 1.3em;
+    letter-spacing: .013rem;
+}
+
+main h4 {
+    font-size: 1.6em;
+}
+
+main h5 {
+    font-size: 1.2em;
+}
+
+main blockquote p {
+    font-size: 1.6em;
+    letter-spacing: 0.013rem;
+    font-weight: 300;
+}
+
+main ul, main ol {
+    padding-left: 3.2em;
+}
 
 footer .menu-wrapper {
-    grid-column: 3 / 5;
+    grid-column: 3 / 4;
 }
 
-footer .menu {
-    text-align: right;
-}
+    footer .menu {
+        text-align: left;
+    }
 
-footer p {
-    grid-column: 2 / 5;
+footer #license {
+    grid-column: 2 / 3;
 }

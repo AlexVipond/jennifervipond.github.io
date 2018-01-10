@@ -1,0 +1,22 @@
+<svg version="1.1"
+    baseProfile="full"
+    width="1500" height="600"
+    xmlns="http://www.w3.org/2000/svg">
+
+    <defs>
+        <linearGradient id="logo-red-blue">
+            <stop offset="22%" stop-color="#9a0007"/>
+            <stop offset="68%" stop-color="#0069c0"/>
+        </linearGradient>
+    </defs>
+
+    <rect x="0" y="0" height="600" width="1500" fill="rgba(0,0,0,0)" stroke="#000" stroke-width="1"/>
+    <path transform="translate(-110 10)"
+        d="
+        M 240 130
+        Q 240 130 250 255
+        Q 265 435 175 375
+        Q 55 305 350 250
+        Q 351 250 440 407
+        Q 441 408 650 20" fill="none" stroke="url(#logo-red-blue)" stroke-width="47" stroke-linecap="round"/>
+</svg>

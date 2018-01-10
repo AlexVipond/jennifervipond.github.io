@@ -1,11 +1,13 @@
 <style>
     input[type="text"], input[type="email"] {
         outline: none;
-        font-family: var(--sans), Helvetica, Arial, sans-serif;
-        background-color: var(--light);
-        color: var(--dark);
+        font-family: 'Lato', Helvetica, Arial, sans-serif;
+        background-color: #fefefe;
+        color: #121212;
         padding: 5px 10px;
         border: none;
+        transition: all .2s ease;
+        border-radius: 4px;
     }
 
     #gist input[name="first-name"] {
@@ -17,13 +19,13 @@
     }
 
     button[type="submit"] {
-        font-family: var(--sans), Helvetica, Arial, sans-serif;
+        font-family: 'Lato', Helvetica, Arial, sans-serif;
         border: none;
     }
 
     #gist button[name="submit-email"] {
-        background-color: var(--light);
-        color: var(--accent);
+        background-color: #fefefe;
+        color: #0069c0;
         margin: 1.5em 0;
     }
 
@@ -41,16 +43,24 @@
 
     @media screen and (min-width: 900px) {
         input[type="text"], input[type="email"] {
-            border-radius: 14px;
             padding: 5px 15px;
+            border-radius: 14px;
+        }
+
+        #gist input[name="first-name"], #gist input[name="email"], #gist button[name="submit-email"] {
+            box-shadow: 0px 0px 2px 0px #093E69, 0px 2px 2px 0px #093E69;
+        }
+
+        #gist input[name="first-name"]:focus, #gist input[name="email"]:focus {
+            box-shadow: 0px 0px 2px 0px #093E69, 0px 2px 2px 0px #093E69;
         }
 
         #gist .button:hover {
-            box-shadow: 0px 0px 6px 0px var(--accentDark), 0px 6px 6px 0px var(--accentDark);
+            box-shadow: 0px 0px 6px 0px #093E69, 0px 6px 6px 0px #093E69;
         }
 
         #gist .button:active {
-            box-shadow: none;
+            box-shadow: 0px 0px 2px 0px #093E69, 0px 2px 2px 0px #093E69;
         }
     }
 </style>

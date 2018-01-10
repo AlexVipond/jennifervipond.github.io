@@ -1,4 +1,4 @@
-<script src="/scripts/nav-transition.js" defer></script>
+<script src="/scripts/transition-nav.js" defer></script>
 
 <footer>
     <div class="logo-wrapper">
@@ -14,18 +14,18 @@
             <li><a href="/index.html#about">About</a></li>
             <!-- <li><a href="/policy">Policy</a></li> -->
             <li><a href="/index.html#contact">Contact</a></li>
-            <li class="button donate">Donate</li>
+            <li><a class="button donate custom-dbox-popup" href="https://donorbox.org/vipond-for-congress-website-donations">Donate</a></li>
         </ul>
     </div>
 
-    <p>&copy; 2017 Jennifer Vipond<br><a href="https://github.com/jennifervipond/jennifervipond.github.io" target="_blank" rel="noopener"><img src="/images/GitHub-Mark-Light-32px.png" alt="GitHub icon" style="height: 15px; vertical-align: middle;"> View on Github</a></p>
+    <p id="license">&copy; 2017 Jennifer Vipond<br><a href="https://github.com/jennifervipond/jennifervipond.github.io" target="_blank" rel="noopener"><img src="/images/GitHub-Mark-Light-32px.png" alt="GitHub icon" style="height: 15px; vertical-align: middle;"> View on Github</a></p>
 
     <script defer>
         let css = [
             {'name': 'normalize', 'media': 'all'},
-            {'name': 'external', 'media': 'all'},
-            {'name': '900', 'media': '(max-width: 900px)'},
-            {'name': '600', 'media': '(max-width: 600px)'}
+            {'name': 'deferred', 'media': 'all'},
+            {'name': '600', 'media': '(min-width: 600px)'},
+            {'name': '900', 'media': '(min-width: 900px)'}
         ],description = document.querySelector('meta[name="description"]');
         css.forEach((e,i,a) => {
             var e = document.createElement('link');
