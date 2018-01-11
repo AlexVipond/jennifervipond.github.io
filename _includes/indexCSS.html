@@ -1,5 +1,9 @@
 <style>
-    main .grid svg {
+    main .flex:first-child {
+        padding-top: 82px;
+    }
+
+    main .flex svg {
         stroke: #9a0007;
         height: 150px;
     }
@@ -9,19 +13,31 @@
     }
 
     @media screen and (min-width: 600px) {
-        main .grid svg {
-            height: 200px;
+        main .flex:first-child {
+            padding-top: 4em;
         }
+
+            main .flex svg {
+                height: 200px;
+            }
     }
 
-    @media screen and (min-width: 600px) {
-        main .grid svg {
-            height: 200px;
-            margin: 4em 0;
+    @media screen and (min-width: 900px) {
+        main .flex:first-child {
+            padding-top: 1.6em;
         }
 
-        #common-sense-icon {
-            margin-bottom: 7em;
-        }
+            main .flex svg {
+                height: 200px;
+                margin: 4em 5vw 4em 0;
+            }
+
+            main .paragraphs-gist svg {
+                margin: 4em 0 4em 5vw;
+            }
+
+            #common-sense-icon {
+                margin-bottom: 7em;
+            }
     }
 </style>

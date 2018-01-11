@@ -57,27 +57,36 @@
 
 /* Main positions */
 
-main section, main .grid, main .blog-post {
+main section, main .flex, main .blog-post {
     padding: 29px 5vw;
 }
 
-main .grid {
+/* main .grid {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto;
     align-items: center;
-}
+} */
 
-    main .grid .gist {
+    /* main .grid .gist {
         grid-column: 1 / 2;
         grid-row: 1 / 2;
         text-align: center;
     }
 
     main .grid .paragraphs {
-        text-align: center;
         grid-column: 1 / 2;
         grid-row: 2 / 3;
+    } */
+
+main .flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    main .flex .gist, main .flex .paragraphs {
+        text-align: center;
     }
 
     main .theme {
