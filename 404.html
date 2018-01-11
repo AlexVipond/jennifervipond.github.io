@@ -1,0 +1,35 @@
+---
+title: Page not found
+layout: default
+---
+<style>
+    #oops {
+        text-align: center;
+    }
+
+        #oops .button {
+            background-color: #9a0007;
+            color: #fefefe;
+        }
+
+        @media screen and (min-width: 900px) {
+            #oops .button {
+                box-shadow: 0px 0px 2px 0px #c3c3c3, 0px 2px 2px 0px #c3c3c3;
+            }
+
+            #oops .button:hover {
+                box-shadow: 0px 0px 6px 0px #c3c3c3, 0px 6px 6px 0px #c3c3c3;
+                opacity: 1;
+            }
+
+            #oops .button:active {
+                box-shadow: 0px 0px 2px 0px #c3c3c3, 0px 2px 2px 0px #c3c3c3;
+            }
+        }
+</style>
+<div id="oops" class="blog-post">
+    <h2>Oops!</h2>
+    <h3>We can't find the page you were looking for.</h3>
+    <p>(Error code: 404)</p>
+    <a class="button" href="/">Return to home page</a>
+</div>

@@ -208,6 +208,7 @@ footer {
         footer .logo {
             height: 40px;
             width: 50.7px;
+            -webkit-transition: all .2s ease;
             transition: all .2s ease;
             z-index: 1;
             position: relative;
@@ -275,6 +276,7 @@ footer {
                 color: #121212;
                 background-color: #fefefe;
                 border-color: #fefefe;
+                -webkit-transform: translateY(0px);
                 transform: translateY(0px);
             }
 
