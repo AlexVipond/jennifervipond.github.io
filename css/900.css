@@ -1,7 +1,7 @@
 /* Fixed nav */
 
 .fixed h1 {
-    color: var(--theme);
+    color: #9a0007;
 }
 
 .fixed .donate:hover {
