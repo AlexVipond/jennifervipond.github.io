@@ -24,6 +24,8 @@ Lasting reform will only be accomplished with bipartisan agreements, and it is t
 
 As a pediatrician, I have worked hard to address today’s issues in order to assure the best possible tomorrow. In Congress, I will do the same.
 
+<hr style="visibility: hidden;" id="medical-care">
+
 > As a pediatrician, I have worked hard to address today’s issues in order to assure the best possible tomorrow. In Congress, I will do the same.
 
 
@@ -37,6 +39,8 @@ While Congress has battled over strategies to pay for the crippling costs of med
 
 I am running for Congress because I would like to work on strategies to control healthcare costs. As a physician, I have seen how much waste we tolerate in medicine. Complicated billing systems requiring multiple administrative layers, uncontrolled prescription drug costs, duplication of services, and fraud all increase price without improving patient outcomes.
 
+<hr style="visibility: hidden;" id="opioid-epidemic">
+
 Until these issues are resolved, medical costs will continue to rise, and Americans will be stuck with the bill.
 
 
@@ -44,7 +48,10 @@ Until these issues are resolved, medical costs will continue to rise, and Americ
 
 Wisconsin has been a leader in proactively attacking the opioid epidemic, but the medical community, law enforcement, and the courts are struggling to keep up. We need more healthcare providers trained to treat addiction and more funding for both prevention and treatment of opioid addiction.
 
+<hr style="visibility: hidden;" id="second-amendment">
+
 The costs of this epidemic, both monetary and human, are staggering, and few of us have been left unaffected. If we fail to address the needs of affected families and children, we risk a perpetuation of the crisis.
+
 
 
 #### The Second Amendment

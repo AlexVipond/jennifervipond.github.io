@@ -108,7 +108,7 @@ main .flex {
 
     main .theme a, main .accent a {
         color: #fefefe;
-        text-decoration: underline;
+        border-bottom: 1px solid #fefefe;
     }
 
     main .blog-post > p:first-of-type {

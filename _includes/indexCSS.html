@@ -1,5 +1,5 @@
 <style>
-    main .flex:first-child {
+    main section:first-child {
         padding-top: 82px;
     }
 
@@ -23,17 +23,18 @@
     }
 
     @media screen and (min-width: 900px) {
-        main .flex:first-child {
-            padding-top: 1.6em;
+        main {
+            padding-top: 0;
+        }
+
+        main section:first-child {
+            padding-top: 4.8em;
+            padding-bottom: 4.8em;
         }
 
             main .flex svg {
                 height: 200px;
-                margin: 4em 5vw 4em 0;
-            }
-
-            main .paragraphs-gist svg {
-                margin: 4em 0 4em 5vw;
+                margin: 4em 0;
             }
 
             #common-sense-icon {
