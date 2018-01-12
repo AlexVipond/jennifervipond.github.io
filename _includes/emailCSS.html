@@ -10,6 +10,17 @@
         border-radius: 4px;
     }
 
+    /* Hiding the honeypot to lure spambots */
+    input[name="unsubscribe_me"] {
+        display: inline-block;
+        height: 0;
+        width: 0;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: -1;
+    }
+
     #gist input[name="first-name"] {
         display: none;
     }
