@@ -20,9 +20,17 @@ layout: default
         border-left: .5px solid #c3c3c3;
     }
 
+    #contact input[name="phone"] {
+        border-right: .5px solid #c3c3c3;
+    }
+
     #contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact textarea[name="message"] {
         border-bottom: .5px solid #c3c3c3;
         margin: .6em 0;
+    }
+
+    #contact input[type="text"]:focus, #contact input[type="email"]:focus, #contact input[type="tel"]:focus, #contact textarea[name="message"]:focus {
+        border-color: #9a0007;
     }
 
     #contact textarea[name="message"] {
@@ -100,7 +108,7 @@ layout: default
                 <label for="knockDoors">Knock on doors</label>
             </div>
             <div class="checkbox">
-                <input type="checkbox" id="callPhones" name="call" value="Phones" />
+                <input type="checkbox" id="callPhones" name="call" value="phones" />
                 <label for="callPhones">Make phone calls</label>
             </div>
             <div class="checkbox">
