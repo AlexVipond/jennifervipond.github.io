@@ -9,11 +9,11 @@ layout: default
     }
 
     #contact input[name="first-name"], #contact input[name="last-name"], #contact input[name="email"], #contact input[name="message"] {
-        width: 100%;
+        width: calc(100% - 20px);
     }
 
     #contact input[name="phone"], #contact input[name="zipcode"] {
-        width: 50%;
+        width: calc(49.9% - 20px);
     }
 
     #contact input[name="phone"] {
@@ -95,7 +95,6 @@ layout: default
             <input type="text" name="last-name" value="" maxlength="50" placeholder="Last name" autocapitalize="words" aria-label="last name" />
             <input type="email" name="email" value="" placeholder="Email" aria-label="email" required />
             <input type="tel" name="phone" value="" placeholder="(123) 456-7890" pattern="^(?:\+?1[-. ]?)?(?:\(?([2-9]\d{2})\)?)[-. ]?([2-9]\d{2})[-. ]?(\d{4})(?:\s{0,2}(?:ext(?:ension)?|ex|x)\.?\s?(\d{1,5}))*$" aria-label="phone" /><input type="text" name="zipcode" value="" placeholder="Zipcode" pattern="^\d{5}([\-]\d{4})?$" aria-label="zipcode" />
-
             <textarea name="message" value="" placeholder="What's on your mind?" max-length="4000" autocomplete="off" spellcheck="true" aria-label="message"></textarea>
 
             <label><h5>Would you like to get involved?</h5></label>
