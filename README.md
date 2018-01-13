@@ -20,6 +20,7 @@ The technology stack used to create and maintain [vipondforcongress.com](https:/
 - Cloudflare (content delivery network and universal SSL)
 - Prose.io (content editing)
 - Mail for Good (email marketing)
+- Google Analytics (website analytics)
 
 ## Further reading
 [The Secret Startup That Saved the Worst Website in America](https://www.theatlantic.com/technology/archive/2015/07/the-secret-startup-saved-healthcare-gov-the-worst-website-in-america/397784/)

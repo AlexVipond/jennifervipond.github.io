@@ -39,7 +39,6 @@
     </head>
 
     <body>
-        {% include colorsCSS.html %}
         {% include navCSS.html %}
         {% include nav.html %}
         {% include emailCSS.html %}
@@ -49,19 +48,21 @@
         <header class="landing-page">
             <div class="bg-img" style="background-image: url(/images/ostrich.jpg); opacity: .35;"></div>
 
-            <div id="gist">
-                <h1><span>Vote </span>Jennifer Hoppe Vipond</h1>
-                <h2>to represent <span>Wisconsin's 5th District</span></h2>
+            <div id="gist-wrapper">
+                <div id="gist">
+                    <h1><span>Vote </span>Jennifer Hoppe Vipond</h1>
+                    <h2>to represent <span>Wisconsin's 5th District</span></h2>
 
-                <form action="https://getsimpleform.com/messages?form_api_token=c826bf93cc0f701979110234068b770a" method="post">
-                  <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-                  <input type='hidden' name='redirect_to' value='https://vipondforcongress.com/email/thank-you.html' />
-                  <!-- all your input fields here....the first one is a honeypot -->
-                  <input type="tel" name="unsubscribe_me" value="" tabindex="-1" autocomplete="off" />
-                  <input type="text" name="first-name" value="" placeholder="First name" autocapitalize="words" aria-label="first name" />
-                  <input type="email" name="email" value="" placeholder="Email" aria-label="email" required /><br>
-                  <button class="button" type="submit" name="submit-email">Get the latest news</button>
-                </form>
+                    <form action="https://getsimpleform.com/messages?form_api_token=c826bf93cc0f701979110234068b770a" method="post">
+                      <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+                      <input type='hidden' name='redirect_to' value='https://vipondforcongress.com/email/thank-you.html' />
+                      <!-- all your input fields here....the first one is a honeypot -->
+                      <input type="tel" name="unsubscribe_me" value="" tabindex="-1" autocomplete="off" />
+                      <input type="text" name="first-name" value="" placeholder="First name" autocapitalize="words" aria-label="first name" />
+                      <input type="email" name="email" value="" placeholder="Email" aria-label="email" required /><br>
+                      <button class="button" type="submit" name="submit-email">Get the latest news</button>
+                    </form>
+                </div>
             </div>
 
         </header>
