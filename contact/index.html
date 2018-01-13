@@ -1,0 +1,122 @@
+---
+title: Contact
+layout: default
+---
+<style media="screen">
+    #contact form {
+        border-bottom: 2px solid #9a0007;
+        padding-bottom: 1.2em;
+    }
+
+    #contact input[name="first-name"], #contact input[name="last-name"], #contact input[name="email"], #contact input[name="message"] {
+        width: 100%;
+    }
+
+    #contact input[name="phone"], #contact input[name="zipcode"] {
+        width: 50%;
+    }
+
+    #contact input[name="zipcode"] {
+        border-left: .5px solid #c3c3c3;
+    }
+
+    #contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact textarea[name="message"] {
+        border-bottom: .5px solid #c3c3c3;
+        margin: .6em 0;
+    }
+
+    #contact textarea[name="message"] {
+        height: 150px;
+        resize: vertical;
+        width: 100%;
+        overflow: scroll;
+        font-size: 17px;
+        margin-top: 1.2em;
+    }
+
+    #contact .checkbox {
+        margin: .6em 0;
+    }
+
+        #contact .checkbox input[type="checkbox"] {
+            vertical-align: top;
+            margin-right: .4em;
+        }
+
+        #contact .checkbox label {
+            font-size: 17px;
+            font-family: 'Lato', Helvetica, Arial, sans-serif;
+            color: #121212;
+        }
+
+    #contact .submit-wrapper {
+        text-align: right;
+    }
+
+        #contact .button {
+            background-color: #9a0007;
+            color: #fefefe;
+        }
+
+        @media screen and (min-width: 900px) {
+            #contact .button {
+                box-shadow: 0px 0px 2px 0px #c3c3c3, 0px 2px 2px 0px #c3c3c3;
+            }
+
+            #contact .button:hover {
+                box-shadow: 0px 0px 6px 0px #c3c3c3, 0px 6px 6px 0px #c3c3c3;
+                opacity: 1;
+            }
+
+            #contact .button:active {
+                box-shadow: 0px 0px 2px 0px #c3c3c3, 0px 2px 2px 0px #c3c3c3;
+            }
+        }
+</style>
+<section id="contact" class="blog-post">
+    <h2>Want to get in touch?</h2>
+    <h3>Just fill out this form, and I'll get back to you as soon as possible.</h3>
+    <p>
+        <form action="https://getsimpleform.com/messages?form_api_token=ba0afd6f3b16dfc9b39a91fecc794646" method="post">
+            <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+            <input type='hidden' name='redirect_to' value='https://vipondforcongress.com/contact/thank-you.html' />
+            <!-- all your input fields here....first one is honeypot -->
+            <input type="tel" name="unsubscribe_me" value="" tabindex="-1" autocomplete="off" />
+
+            <input type="text" name="first-name" value="" maxlength="50" placeholder="First name" autocapitalize="words" autofocus aria-label="first name" required />
+            <input type="text" name="last-name" value="" maxlength="50" placeholder="Last name" autocapitalize="words" aria-label="last name" />
+            <input type="email" name="email" value="" placeholder="Email" aria-label="email" required />
+            <input type="tel" name="phone" value="" placeholder="(123) 456-7890" pattern="^(?:\+?1[-. ]?)?(?:\(?([2-9]\d{2})\)?)[-. ]?([2-9]\d{2})[-. ]?(\d{4})(?:\s{0,2}(?:ext(?:ension)?|ex|x)\.?\s?(\d{1,5}))*$" aria-label="phone" /><input type="text" name="zipcode" value="" placeholder="Zipcode" pattern="^\d{5}([\-]\d{4})?$" aria-label="zipcode" />
+
+            <textarea name="message" value="" placeholder="What's on your mind?" max-length="4000" autocomplete="off" spellcheck="true" aria-label="message"></textarea>
+
+            <label><h5>Would you like to get involved?</h5></label>
+            <div class="checkbox">
+                <input type="checkbox" id="subscribeNews" name="subscribe" value="newsletter" checked />
+                <label for="subscribeNews">Get the latest news</label>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" id="knockDoors" name="knock" value="doors" />
+                <label for="knockDoors">Knock on doors</label>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" id="callPhones" name="call" value="Phones" />
+                <label for="callPhones">Make phone calls</label>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" id="lawnSign" name="lawn" value="sign" />
+                <label for="lawnSign">Get a lawn sign</label>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" id="houseParty" name="host" value="party" />
+                <label for="houseParty">Host a house party</label>
+            </div>
+
+            <div class="submit-wrapper">
+                <button class="button" type="submit" name="submit-email">Submit</button>
+            </div>
+        </form>
+    </p>
+    <h5>Or, if you prefer mail, here's my address:</h5>
+    <p>Vipond for Congress<br>P.O. Box 1852<br>Brookfield, WI 53008-1852</p>
+</section>
