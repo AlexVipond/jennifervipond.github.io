@@ -26,7 +26,7 @@
             {'name': '600', 'media': '(min-width: 600px)'},
             {'name': '900', 'media': '(min-width: 900px)'}
         ],description = document.querySelector('meta[name="description"]');
-        css.forEach((e,i,a) => {
+        css.forEach(function(e,i,a) {
             var e = document.createElement('link');
             e.rel = 'stylesheet';
             e.href = '/css/' + a[i].name + '.css';
