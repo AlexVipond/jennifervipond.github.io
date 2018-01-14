@@ -1,15 +1,15 @@
 let nav = document.querySelector('nav'),
     header = document.querySelector('header'),
-    scrollTop, navHeight, headerHeight, breakPoint;
+    scrollTop, navHeight, headerHeight, navOpacityBreakPoint;
 
-function getElementDimensions() {
+function getDimensionsForTransitionNav() {
     scrollTop = window.pageYOffset;
     navHeight = nav.getBoundingClientRect().height;
     headerHeight = header.getBoundingClientRect().height;
 }
 
-function setBreakPoint(multiplier) {
-    breakPoint = headerHeight * multiplier;
+function setNavOpacityBreakPoint(multiplier) {
+    navOpacityBreakPoint = headerHeight * multiplier;
 }
 
 function closeMenu() {
@@ -57,7 +57,7 @@ function fadeNav() {
     closeMenu();
     setNavPosition('absolute');
     setNavTop(headerHeight);
-    setNavOpacity((scrollTop - breakPoint) / (headerHeight - breakPoint));
+    setNavOpacity((scrollTop - navOpacityBreakPoint) / (headerHeight - navOpacityBreakPoint));
     addFixedNavStyles();
 }
 
@@ -69,8 +69,8 @@ function fixNavToTop() {
 }
 
 function section1() {return scrollTop < navHeight}
-function section2() {return scrollTop > navHeight && scrollTop < breakPoint}
-function section3() {return scrollTop > breakPoint && scrollTop < headerHeight}
+function section2() {return scrollTop > navHeight && scrollTop < navOpacityBreakPoint}
+function section3() {return scrollTop > navOpacityBreakPoint && scrollTop < headerHeight}
 function section4() {return scrollTop >= headerHeight}
 
 function transitionNav() {
@@ -86,7 +86,7 @@ function transitionNav() {
 }
 
 window.addEventListener('scroll', function() {
-    getElementDimensions();
-    setBreakPoint(.7);
+    getDimensionsForTransitionNav();
+    setNavOpacityBreakPoint(.7);
     transitionNav();
 });
