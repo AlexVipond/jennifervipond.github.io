@@ -5,38 +5,41 @@
     xmlns="http://www.w3.org/2000/svg">
 
     <g stroke-width="2" stroke-linecap="round" fill="none">
-        <path stroke-linejoin="round"
-            d="M 50 5
-            h 45
-            v 5
-            h 5
-            v 15
-            h -55
-            v -15
-            h 5
-            v -5
-            m 0 20
-            v 70
-            h 45
-            v -20
-            h -20
-            h 20
-            v -7.5
-            h -20
-            h 20
-            v -7.5
-            h -20
-            h 20
-            v -35
-            m -37.5 17.5
-            v -10
-            h 2
-            a 2.5 2.5 0 1 1 0 5
-            h -2
-            l 10 10
-            l -3.5 -3.5
-            l 3.5 -3.5
-            l -7 7" />
+        <g stroke-linejoin="round">
+            <path d="M 50 5
+                h 45
+                v 5
+                h 5
+                v 15
+                h -55
+                v -15
+                h 5
+                v -5
+                m 0 20
+                v 70
+                h 45
+                v -20
+                h -25
+                h 25
+                v -7.5
+                h -25
+                h 25
+                v -7.5
+                h -25
+                h 25
+                v -35" />
+
+            <path d="M 79 47.5
+                v -10
+                h 2
+                a 2.5 2.5 0 1 1 0 5
+                h -2
+                l 10 10
+                l -3.5 -3.5
+                l 3.5 -3.5
+                l -7 7" />
+        </g>
+        
         <path transform-origin="10 65" transform="rotate(-75)" d="M 10 70
             a 5 5 0 1 1 .0001 0
             v -10" />
