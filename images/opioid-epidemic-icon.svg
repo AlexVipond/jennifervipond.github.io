@@ -1,45 +1,52 @@
-<svg transform="scale(5)" id="opioid-abuse-icon" version="1.1"
+<svg id="opioid-epidemic-icon" version="1.1"
     baseProfile="full"
-    viewbox="0 0 135 85"
+    viewbox="0 0 105 100"
     preserveAspectRatio="xMinYMin meet"
     xmlns="http://www.w3.org/2000/svg">
 
-    <g transform="translate(50 -31) rotate(-60 17.5 75)" stroke-width="2" stroke-linecap="round" fill="none" stroke="#000">
+    <g stroke-width="2" stroke-linecap="round" fill="none">
         <path stroke-linejoin="round"
-            d="M 10 5
-            h 15
-            l -5 5
+            d="M 50 5
+            h 45
+            v 5
+            h 5
             v 15
-            h -5
-            h 5
-            a 50 5 0 0 1 10 2.5
-            v 80
-            a 50 5 0 0 1 -10 2.5
-            h -5
-            h 5
-            q 0 5 -2.5 5
-            v 30
-            v -30
-            q -2.5 0 -2.5 -5
-            a 50 5 0 0 1 -10 -2.5
-            v -80
-            a 50 5 0 0 1 10 -2.5
+            h -55
             v -15
-            l -5 -5"/>
-        <path
-            d="M30 37.5
-            h-12.5
-            m12.5 10
-            h-7.5
-            m7.5 10
-            h-12.5
-            m12.5 10
-            h-7.5
-            m7.5 10
-            h-12.5
-            m12.5 10
-            h-7.5
-            m7.5 10
-            h-12.5"/>
+            h 5
+            v -5
+            m 0 20
+            v 70
+            h 45
+            v -20
+            h -20
+            h 20
+            v -7.5
+            h -20
+            h 20
+            v -7.5
+            h -20
+            h 20
+            v -35
+            m -37.5 17.5
+            v -10
+            h 2
+            a 2.5 2.5 0 1 1 0 5
+            h -2
+            l 10 10
+            l -3.5 -3.5
+            l 3.5 -3.5
+            l -7 7" />
+        <path transform-origin="10 65" transform="rotate(-75)" d="M 10 70
+            a 5 5 0 1 1 .0001 0
+            v -10" />
+
+        <path transform-origin="22.5 40" transform="rotate(15)" d="M 22.5 45
+            a 5 5 0 1 1 .0001 0
+            v -10" />
+
+        <path transform-origin="30 85" transform="rotate(65)" d="M 30 90
+            a 5 5 0 1 1 .0001 0
+            v -10" />
     </g>
 </svg>
