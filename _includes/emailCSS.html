@@ -11,7 +11,7 @@
         font-size: 17px;
     }
 
-    /* Hiding the honeypot to lure spambots */
+    /* Hiding the honeypot */
     input[name="unsubscribe_me"] {
         display: inline-block;
         height: 0;
@@ -24,16 +24,58 @@
         outline: none;
     }
 
+    #gist input[name="first-name"], #gist input[name="email"] {
+        background-color: rgba(254,254,254,0);
+        color: #fefefe;
+    }
+
+    #gist input::-webkit-input-placeholder {
+        color: rgba(254,254,254,.5);
+    }
+
+    #gist input::-moz-placeholder {
+        color: rgba(254,254,254,.5);
+    }
+
+    #gist input:-ms-input-placeholder {
+        color: rgba(254,254,254,.5);
+    }
+
+    #gist input:-moz-placeholder {
+        color: rgba(254,254,254,.5);
+    }
+
     #gist input[name="first-name"] {
         display: none;
-        border-radius: 4px;
-        border: none;
     }
 
     #gist input[name="email"] {
         width: 75vw;
-        border-radius: 4px;
-        border: none;
+        margin-top: 6em;
+    }
+
+    #gist input {
+        border-bottom: 2px solid rgba(254,254,254,.5);
+    }
+
+    #gist input:focus {
+        border-color: #fefefe;
+    }
+
+    #gist input:focus::-webkit-input-placeholder {
+        color: rgba(254,254,254,0);
+    }
+
+    #gist input:focus::-moz-placeholder {
+        color: rgba(254,254,254,0);
+    }
+
+    #gist input:focus:-ms-input-placeholder {
+        color: rgba(254,254,254,0);
+    }
+
+    #gist input:focus:-moz-placeholder {
+        color: rgba(254,254,254,0);
     }
 
     button[type="submit"] {
@@ -60,18 +102,18 @@
     }
 
     @media screen and (min-width: 900px) {
-        #gist input[name="first-name"], #gist input[name="email"] {
+        /* #gist input[name="first-name"], #gist input[name="email"] {
             padding: 5px 15px;
             border-radius: 14px;
-        }
+        } */
 
-        #gist input[name="first-name"], #gist input[name="email"], #gist button[name="submit-email"] {
+        /* #gist input[name="first-name"], #gist input[name="email"], #gist button[name="submit-email"] {
             box-shadow: 0px 0px 2px 0px #093E69, 0px 2px 2px 0px #093E69;
         }
 
         #gist input[name="first-name"]:focus, #gist input[name="email"]:focus {
             box-shadow: 0px 0px 2px 0px #093E69, 0px 2px 2px 0px #093E69;
-        }
+        } */
 
         #gist .button:hover {
             box-shadow: 0px 0px 6px 0px #093E69, 0px 6px 6px 0px #093E69;
