@@ -68,14 +68,37 @@ main ul, main ol {
     padding-left: 3.2em;
 }
 
+
+/* Footer positions */
+
+footer .logo-wrapper {
+    width: 30vw;
+}
+
 footer .menu-wrapper {
-    grid-column: 3 / 4;
+    width: 10vw;
 }
 
     footer .menu {
         text-align: left;
     }
 
-footer #license {
-    grid-column: 2 / 3;
+footer .form-wrapper {
+    display: inline-block;
 }
+
+    footer form {
+        display: inline-block;
+        width: 40vw;
+        text-align: right;
+    }
+
+        footer form input[type="text"] {
+            font-size: 16px;
+        }
+
+        footer form .button {
+            margin-right: 0;
+            font-size: 16px;
+            border: 2px solid #C3C3C3;
+        }
