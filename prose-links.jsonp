@@ -8,13 +8,13 @@ callback([
   } ,
 
   {
-    "text": "About",
-    "href": "/about/"
+    "text": "Contact",
+    "href": "/contact/"
   } ,
 
   {
-    "text": "Contact",
-    "href": "/index.html#contact"
+    "text": "Get Involved",
+    "href": "/contact/"
   } ,
 
   {
@@ -24,12 +24,17 @@ callback([
 
   {
     "text": "Donate",
-    "href": "/donate.html"
+    "href": "/donate/"
   } ,
 
   {
     "text": "Subscribe to newsletter",
     "href": "/"
+  } ,
+
+  {
+    "text": "Privacy & Security",
+    "href": "/privacy/"
   }
 
 ])

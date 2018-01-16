@@ -1,4 +1,6 @@
-name: Jennifer Vipond for Congress
+name: Vipond for Congress
+plugins:
+    - jekyll-sitemap
 markdown: kramdown
 prose:
   rooturl: '_posts'
