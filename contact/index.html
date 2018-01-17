@@ -2,85 +2,7 @@
 title: Contact
 layout: default
 ---
-<style media="screen">
-    #contact form {
-        border-bottom: 2px solid #9a0007;
-        padding-bottom: 1.2em;
-    }
-
-    #contact input[name="first-name"], #contact input[name="last-name"], #contact input[name="email"], #contact input[name="message"] {
-        width: calc(100% - 20px);
-    }
-
-    #contact input[name="phone"], #contact input[name="zipcode"] {
-        width: calc(49.8% - 20px);
-    }
-
-    #contact input[name="phone"] {
-        border-right: .5px solid #c3c3c3;
-    }
-
-    #contact input[name="zipcode"] {
-        border-left: .5px solid #c3c3c3;
-    }
-
-    #contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact textarea[name="message"] {
-        border-bottom: .5px solid #c3c3c3;
-        margin: .6em 0;
-    }
-
-    #contact input[type="text"]:focus, #contact input[type="email"]:focus, #contact input[type="tel"]:focus, #contact textarea[name="message"]:focus {
-        border-color: #0069c0;
-    }
-
-    #contact textarea[name="message"] {
-        height: 150px;
-        resize: vertical;
-        width: calc(100% - 20px);
-        overflow: scroll;
-        font-size: 17px;
-        margin-top: 1.2em;
-    }
-
-    #contact .checkbox {
-        margin: .6em 0;
-    }
-
-        #contact .checkbox input[type="checkbox"] {
-            vertical-align: top;
-            margin-right: .4em;
-        }
-
-        #contact .checkbox label {
-            font-size: 17px;
-            font-family: 'Lato', Helvetica, Arial, sans-serif;
-            color: #121212;
-        }
-
-    #contact .submit-wrapper {
-        text-align: right;
-    }
-
-        #contact .button {
-            background-color: #9a0007;
-            color: #fefefe;
-        }
-
-        @media screen and (min-width: 900px) {
-            #contact .button {
-                box-shadow: 0px 0px 2px 0px #c3c3c3, 0px 2px 2px 0px #c3c3c3;
-            }
-
-            #contact .button:hover {
-                box-shadow: 0px 0px 6px 0px #c3c3c3, 0px 6px 6px 0px #c3c3c3;
-                opacity: 1;
-            }
-
-            #contact .button:active {
-                box-shadow: 0px 0px 2px 0px #c3c3c3, 0px 2px 2px 0px #c3c3c3;
-            }
-        }
-</style>
+{% include contactCSS.html %}
 <section id="contact" class="blog-post">
     <h2>Want to get in touch?</h2>
     <h3>Just fill out this form, and I'll get back to you as soon as possible.</h3>
@@ -91,9 +13,9 @@ layout: default
             <!-- all your input fields here....first one is honeypot -->
             <input type="tel" name="unsubscribe_me" value="" tabindex="-1" autocomplete="off" />
 
-            <input type="text" name="first-name" value="" maxlength="50" placeholder="First name" autocapitalize="words" autofocus aria-label="first name" required />
+            <input type="text" name="first-name" value="" maxlength="50" placeholder="First name*" autocapitalize="words" autofocus aria-label="first name" required />
             <input type="text" name="last-name" value="" maxlength="50" placeholder="Last name" autocapitalize="words" aria-label="last name" />
-            <input type="email" name="email" value="" placeholder="Email" aria-label="email" required />
+            <input type="email" name="email" value="" placeholder="Email*" aria-label="email" required />
             <input type="tel" name="phone" value="" placeholder="(123) 456-7890" pattern="^(?:\+?1[-. ]?)?(?:\(?([2-9]\d{2})\)?)[-. ]?([2-9]\d{2})[-. ]?(\d{4})(?:\s{0,2}(?:ext(?:ension)?|ex|x)\.?\s?(\d{1,5}))*$" aria-label="phone" /><input type="text" name="zipcode" value="" placeholder="Zipcode" pattern="^\d{5}([\-]\d{4})?$" aria-label="zipcode" />
             <textarea name="message" value="" placeholder="What's on your mind?" max-length="4000" autocomplete="off" spellcheck="true" aria-label="message"></textarea>
 

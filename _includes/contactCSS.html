@@ -1,0 +1,79 @@
+<style media="screen">
+    #contact form {
+        border-bottom: 2px solid #9a0007;
+        padding-bottom: 1.2em;
+    }
+
+    #contact input[name="first-name"], #contact input[name="last-name"], #contact input[name="email"], #contact input[name="message"] {
+        width: calc(100% - 20px);
+    }
+
+    #contact input[name="phone"], #contact input[name="zipcode"] {
+        width: calc(49.8% - 20px);
+    }
+
+    #contact input[name="phone"] {
+        border-right: .5px solid #c3c3c3;
+    }
+
+    #contact input[name="zipcode"] {
+        border-left: .5px solid #c3c3c3;
+    }
+
+    #contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact textarea[name="message"] {
+        border-bottom: .5px solid #c3c3c3;
+        margin: .6em 0;
+    }
+
+    #contact input[type="text"]:focus, #contact input[type="email"]:focus, #contact input[type="tel"]:focus, #contact textarea[name="message"]:focus {
+        border-color: #0069c0;
+    }
+
+    #contact textarea[name="message"] {
+        height: 150px;
+        resize: vertical;
+        width: calc(100% - 20px);
+        overflow: scroll;
+        font-size: 17px;
+        margin-top: 1.2em;
+    }
+
+    #contact .checkbox {
+        margin: .6em 0;
+    }
+
+        #contact .checkbox input[type="checkbox"] {
+            vertical-align: top;
+            margin-right: .4em;
+        }
+
+        #contact .checkbox label {
+            font-size: 17px;
+            font-family: 'Lato', Helvetica, Arial, sans-serif;
+            color: #121212;
+        }
+
+    #contact .submit-wrapper {
+        text-align: right;
+    }
+
+        #contact .button {
+            background-color: #9a0007;
+            color: #fefefe;
+        }
+
+        @media screen and (min-width: 900px) {
+            #contact .button {
+                box-shadow: 0px 0px 2px 0px #c3c3c3, 0px 2px 2px 0px #c3c3c3;
+            }
+
+            #contact .button:hover {
+                box-shadow: 0px 0px 6px 0px #c3c3c3, 0px 6px 6px 0px #c3c3c3;
+                opacity: 1;
+            }
+
+            #contact .button:active {
+                box-shadow: 0px 0px 2px 0px #c3c3c3, 0px 2px 2px 0px #c3c3c3;
+            }
+        }
+</style>
