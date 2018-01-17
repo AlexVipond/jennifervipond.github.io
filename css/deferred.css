@@ -293,10 +293,10 @@ footer {
         display: none;
     }
 
-    footer #license {
+    footer #legal {
         text-align: left;
         margin: 0;
         position: relative;
-        bottom: 36px;
+        bottom: 72px;
         left: 0;
     }
