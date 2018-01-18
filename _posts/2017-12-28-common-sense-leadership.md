@@ -22,7 +22,7 @@ Congress has become a dysfunctional body divided into two groups that refuse to 
 
 Lasting reform will only be accomplished with bipartisan agreements, and it is time to grow up and work together to solve the problems that are impacting so many American families.
 
-As a pediatrician, I have worked hard to address today’s issues in order to assure the best possible tomorrow. In Congress, I will do the same. My goal is to represent Wisconsin's Fifth District now, while the nation is dealing with so many health related crises.  
+As a pediatrician, I have worked hard to address today’s issues in order to assure the best possible tomorrow. In Congress, I will do the same.   
 
 <hr style="visibility: hidden;" id="medical-care">
 
