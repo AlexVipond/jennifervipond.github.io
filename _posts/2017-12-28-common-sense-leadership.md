@@ -37,7 +37,7 @@ While Congress has battled over strategies to pay for the crippling costs of med
 
 > If we don’t control the rise in cost, it will not matter if we have a single payer system or free market insurance—America will not be able to afford it.
 
-I am running for Congress because I would like to work on strategies to control healthcare costs. As a physician, I have seen how much waste we tolerate in medicine. Complicated billing systems requiring multiple administrative layers, uncontrolled prescription drug costs, duplication of services, and fraud all increase price without improving patient outcomes.
+I am running for Congress because I would like to work on strategies to control healthcare costs. As a physician, I have seen how much waste we tolerate in medicine. Complicated billing systems requiring multiple administrative layers, uncontrolled prescription drug costs, duplication of services, and fraud all increase price without improving patient outcomes. I do not have all the answers on how this country's next health plan will look but I know that we need physicians involved in its development.
 
 <hr style="visibility: hidden;" id="opioid-epidemic">
 
