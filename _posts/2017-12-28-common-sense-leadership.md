@@ -16,7 +16,7 @@ excerpt: >-
 ---
 My name is Dr. Jennifer Hoppe Vipond, and I am running to represent Wisconsin’s fifth congressional district in the United States House of Representatives.
 
-For more than twenty-five years I have had the privilege to serve the people of District 5 as a pediatrician. I have worked with thousands of families and been a part of their struggles and their successes. I was born and raised in this district. My husband Mark and and I have raised six children here while I have maintained a full time medical practice.
+For more than twenty-five years I have had the privilege to serve the people of District 5 as a pediatrician. I have worked with thousands of families and been a part of their struggles and their successes. I was born and raised in this district. My husband Mark and I have raised six children here while I have maintained a full time medical practice.
 
 Congress has become a dysfunctional body divided into two groups that refuse to agree on even the most obvious issues. I would like to bring back a Congress where common sense is more important than special interests and where evidence-based policymaking replaces fearmongering and divisiveness.
 
