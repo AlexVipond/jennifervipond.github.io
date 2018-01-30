@@ -1,0 +1,58 @@
+<svg id="tax-icon" version="1.1"
+    baseProfile="full"
+    viewbox="0 0 107 68"
+    preserveAspectRatio="xMinYMin meet"
+    xmlns="http://www.w3.org/2000/svg">
+
+    <!-- <rect x="0" y="0" width="107" height="68" stroke="#000" fill="none" /> -->
+
+    <g transform="translate(7 7) rotate(-10 50 50)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" fill="none" stroke="#000">
+        <path d="M 5 5
+            h 90
+            v 37
+            h -90
+            v -37
+            m 37.5 37
+            a 15 17.5 0 1 1 15 0
+            m -3.5 -20
+            a 4 4 0 1 0 -4 4
+            a 4 4 0 1 1 -4 4
+            m 4 -14
+            v 20
+            m -35 -31
+            a 10 10 0 0 1 -10 10
+            m 0 17
+            a 10 10 0 0 1 10 10
+            m 70 0
+            a 10 10 0 0 1 10 -10
+            m 0 -17
+            a 10 10 0 0 1 -10 -10" />
+
+        <path transform="translate(0 -37) rotate(20 50 65.5)" d="M 92 47
+            h 3
+            v 10
+            m 0 7
+            v 20
+            h -56
+            m -31 0
+            h -3
+            v -9
+            m 0 -11
+            m 37.5 20
+            m 21 -8.5
+            a 15 17.5 0 0 1 -6 8.5
+            m -3.5 -20
+            m -4 4
+            m -4 4
+            m 4 -14
+            m 0 20
+            m -35 -31
+            m -10 10
+            m 0 17
+            m 10 10
+            m 70 0
+            a 10 10 0 0 1 10 -10
+            m 0 -17
+            M -10 -10" />
+    </g>
+</svg>

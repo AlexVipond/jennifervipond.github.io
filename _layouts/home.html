@@ -15,7 +15,7 @@
             gtag('config', 'UA-58906424-3');
         </script>
         <!-- End Google Analytics -->
-
+        
         <title>{{ page.title }}</title>
 
         <meta charset="utf-8">
@@ -47,7 +47,19 @@
         {% include landingPageCSS.html %}
 
         <header class="landing-page">
-            <div class="bg-img" style="background-image: url(/images/ostrich.jpg); opacity: .35;"></div>
+            <style>
+                #bg-img {
+                    background-image: url(/images/jv-green-shirt-headshot-600.jpg);
+                    opacity: .55;
+                }
+
+                @media screen and (min-width: 600px) {
+                    #bg-img {
+                        background-image: url(/images/jv-paisley-headshot-1280.jpg);
+                    }
+                }
+            </style>
+            <div id="bg-img" class="bg-img bg-img-center-top"></div>
 
             <div id="gist-wrapper">
                 <div id="gist">

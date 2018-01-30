@@ -51,7 +51,7 @@
 
     #gist input[name="email"] {
         width: 75vw;
-        margin-top: 5em;
+        margin-top: 3em;
     }
 
     #gist input {
@@ -84,9 +84,10 @@
     }
 
     #gist button[name="submit-email"] {
-        background-color: #fefefe;
-        color: #0069c0;
-        margin: 1.5em 0;
+        background-color: rgba(254, 254, 254, 0);
+        color: #fefefe;
+        border: 2px solid #fefefe;
+        margin: 1.5em 0 3em 0;
     }
 
     @media screen and (min-width: 600px) {
@@ -102,25 +103,21 @@
     }
 
     @media screen and (min-width: 900px) {
-        /* #gist input[name="first-name"], #gist input[name="email"] {
-            padding: 5px 15px;
-            border-radius: 14px;
-        } */
-
-        /* #gist input[name="first-name"], #gist input[name="email"], #gist button[name="submit-email"] {
-            box-shadow: 0px 0px 2px 0px #093E69, 0px 2px 2px 0px #093E69;
+        #gist button[name="submit-email"] {
+            background-color: #fefefe;
+            color: #9a0007;
         }
 
-        #gist input[name="first-name"]:focus, #gist input[name="email"]:focus {
-            box-shadow: 0px 0px 2px 0px #093E69, 0px 2px 2px 0px #093E69;
-        } */
+        #gist .button {
+            box-shadow: 0px 0px 2px 0px rgba(18,18,18,.5), 0px 2px 2px 0px rgba(18,18,18,.5);
+        }
 
         #gist .button:hover {
-            box-shadow: 0px 0px 6px 0px #093E69, 0px 6px 6px 0px #093E69;
+            box-shadow: 0px 0px 6px 0px rgba(18,18,18,.5), 0px 6px 6px 0px rgba(18,18,18,.5);
         }
 
         #gist .button:active {
-            box-shadow: 0px 0px 2px 0px #093E69, 0px 2px 2px 0px #093E69;
+            box-shadow: 0px 0px 2px 0px rgba(18,18,18,.5), 0px 2px 2px 0px rgba(18,18,18,.5);
         }
     }
 </style>

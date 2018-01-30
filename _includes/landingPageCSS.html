@@ -5,7 +5,6 @@
 
         .landing-page #gist-wrapper {
             text-align: center;
-            align-items: center;
             height: 100%;
         }
 
@@ -27,31 +26,37 @@
             }
 
     @media screen and (min-width: 600px) {
-        #gist h2 #congress {
-            display: none;
+        .landing-page #gist-wrapper {
+            align-items: center;
+            width: 80vw;
+            padding: 0 10vw;
         }
 
-        #gist h2 #wisconsin {
-            display: inline;
-        }
+            .landing-page #gist {
+                text-align: right;
+            }
+
+                #gist h2 #congress {
+                    display: none;
+                }
+
+                #gist h2 #wisconsin {
+                    display: inline;
+                }
     }
 
     @media screen and (min-width: 900px) {
-        .landing-page #gist {
-            text-align: left;
+        #gist h1 #jennifer, #gist h1 #hoppe {
+            display: inline;
         }
 
-            #gist h1 #jennifer, #gist h1 #hoppe {
-                display: inline;
-            }
+        #gist h1 {
+            font-size: 52px;
+        }
 
-            #gist h1 {
-                font-size: 52px;
-            }
-
-            #gist h2 {
-                font-size: 26px;
-            }
+        #gist h2 {
+            font-size: 26px;
+        }
     }
 
     .pseudo-landing-page {
