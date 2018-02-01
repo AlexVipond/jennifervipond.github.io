@@ -46,21 +46,22 @@ Until these issues are resolved, medical costs will continue to rise, and Americ
 
 #### The Opioid Epidemic
 
-Wisconsin has been a leader in proactively attacking the opioid epidemic but the medical community, law enforcement and the courts are struggling to keep up. We need more healthcare providers trained to treat addiction and more funding for both prevention and treatment of opioid addiction. The costs of this epidemic, both monetary and human, are staggering and few of us have been left unaffected. If we fail to address the needs of affected families and children we risk a perpetuation of the crisis. 
+Wisconsin has been a leader in proactively attacking the opioid epidemic but the medical community, law enforcement and the courts are struggling to keep up. We need more healthcare providers trained to treat addiction and more funding for both prevention and treatment of opioid addiction. The costs of this epidemic, both monetary and human, are staggering and few of us have been left unaffected. If we fail to address the needs of affected families and children we risk a perpetuation of the crisis.
+
 In my practice I have seen the tragic results of this epidemic. Former patients have died of overdose. Some struggle with addiction and are either in and out of rehab programs or are incarcerated. It is now common to have newborns who spend their first few weeks of life in the hospital weaning off the opioid medications they were exposed to before birth. Especially tragic are the young children left orphaned by the epidemic. I take care of whole families of children who have entered the foster system because their parents are incarcerated, dead or unable to care for them because of opioids.
 
-<hr style="visibility: hidden;" id="second-amendment">
+In October of 2017 the President declared the opioid crisis a national public health emergency. Congress has yet to appropriate funds to attack this crisis. Americans are dying in record numbers.
 
-In October of 2017 the President declared the opioid crisis a national public health emergency. Congress has yet to appropriate funds to attack this crisis. Americans are dying in record numbers. 
-
->I would like to help expedite the implementation of the recommendations put forth in the President’s Commission on Combating Drug Addiction and the Opioid Crisis. 
+>I would like to help expedite the implementation of the recommendations put forth in the President’s Commission on Combating Drug Addiction and the Opioid Crisis.
 
 
-About eight years ago I sent an email to many Waukesha county physicians addressing the use of opioid medications for minor pain. One response from an emergency room doctor stays with me. I was told that if they don’t give opioid medications they risk angering the patient and the patient will refuse to pay the bill. Thankfully we have come a long way since then but there are more steps that can be taken to reduce the number of new opioid addicts. 
+About eight years ago I sent an email to many Waukesha county physicians addressing the use of opioid medications for minor pain. One response from an emergency room doctor stays with me. I was told that if they don’t give opioid medications they risk angering the patient and the patient will refuse to pay the bill. Thankfully we have come a long way since then but there are more steps that can be taken to reduce the number of new opioid addicts.
+
 We should make physician education regarding appropriate prescribing patterns mandatory for renewal of DEA licensing. Too many opioid addicts started with prescription medications. Sometimes these were legitimate prescriptions, other times the pills were bought or stolen from someone who had a prescription of their own. We now have the Prescription Drug Monitoring Program (PDMP) in all 50 states which helps physicians identify patients with excessive opioid prescriptions. We can expand these programs to identify patients at highest risk and physicians with excessive prescribing practices by connecting these data banks across state lines. We can further help reduce the number of new pill users by providing drug disposal bags with all opioid prescriptions.  
 
-Access to effective treatment of addiction is crucial to controlling this epidemic. Medically Assisted Treatment (MAT) combines therapy with a medication to reduce cravings for opioid and has been shown to be the most effective in treating addiction. Currently there is a shortage of physicians trained to dispense these medications which limits access for many opioid users. Restrictions on inpatient addiction treatment leaves many Medicaid patients unable to access these services.  Bills to address some of these issues have been introduced but not acted upon. 
+Access to effective treatment of addiction is crucial to controlling this epidemic. Medically Assisted Treatment (MAT) combines therapy with a medication to reduce cravings for opioid and has been shown to be the most effective in treating addiction. Currently there is a shortage of physicians trained to dispense these medications which limits access for many opioid users. Restrictions on inpatient addiction treatment leaves many Medicaid patients unable to access these services.  Bills to address some of these issues have been introduced but not acted upon.
 
+<hr style="visibility: hidden;" id="second-amendment">
 
 What are we waiting for?
 
@@ -72,25 +73,29 @@ Gun violence is a major problem in our district. Enforcement of our current gun 
 
 >I will protect the legal ownership of guns.
 
-By researching automobile accidents, American engineers have made huge progress in making our cars safer and in reducing automobile related deaths and injuries. We have all benefited. The same approach could help reduce gun violence, but since 1996 the Centers for Disease Control has been unable to fund research that could help make guns safer.  Guns could be made theft resistant and child resistant without interfering with the rights of gun owners. 
+By researching automobile accidents, American engineers have made huge progress in making our cars safer and in reducing automobile related deaths and injuries. We have all benefited. The same approach could help reduce gun violence, but since 1996 the Centers for Disease Control has been unable to fund research that could help make guns safer.  Guns could be made theft resistant and child resistant without interfering with the rights of gun owners.
 
 > Guns can be made theft resistant and child resistant without interfering with the rights of gun owners.
+
+<hr style="visibility: hidden;" id="womens-issues">
 
 I will work to loosen the restrictions on gun research in order to decrease gun related deaths.
 
 
-
 #### Women's Issues
 
-2017 saw the emergence of a new strength in women across the United States. In 2018 and beyond I hope to see this strength continue to grow so that our daughters as well as our sons will have the opportunity to maximize their potential without fear or false limitations.   We need to ensure access to birth control to allow young women to complete their education and choose if and when they wish to start a family. Unwanted pregnancies are usually the result of a lack of access to basic preventive care. I believe the best way to prevent the tragedy of abortion is to provide comprehensive women’s health services including family planning and contraception. It is crucial that any health plan put forward include these basic services.   
-In order to become successful and self-reliant citizens, women need control of their fertility. We all want fewer people to be relying on government aid. 
+2017 saw the emergence of a new strength in women across the United States. In 2018 and beyond I hope to see this strength continue to grow so that our daughters as well as our sons will have the opportunity to maximize their potential without fear or false limitations.   We need to ensure access to birth control to allow young women to complete their education and choose if and when they wish to start a family. Unwanted pregnancies are usually the result of a lack of access to basic preventive care. I believe the best way to prevent the tragedy of abortion is to provide comprehensive women’s health services including family planning and contraception. It is crucial that any health plan put forward include these basic services.
 
->Strong women will in turn lead to strong families and better opportunities for the next generation. 
+In order to become successful and self-reliant citizens, women need control of their fertility. We all want fewer people to be relying on government aid. Strong women will in turn lead to strong families and better opportunities for the next generation.
 
-Just as poverty and entitlements can lead to a cycle of government dependency, education and opportunity can lead to a cycle of success and independence. I have seen this play out time and again with the families I have taken care of in my practice. 
+>Strong women will in turn lead to strong families and better opportunities for the next generation.
+
+<hr style="visibility: hidden;" id="tax-cuts">
+
+Just as poverty and entitlements can lead to a cycle of government dependency, education and opportunity can lead to a cycle of success and independence. I have seen this play out time and again with the families I have taken care of in my practice.
 
 #### Tax Cuts
 
-The tax cuts for corporations and small businesses passed in 2017 were necessary to keep jobs in the United States and to allow our family-run businesses to stay competitive in a global marketplace. In District 5 we are blessed with a strong mix of multi-national corporations and small businesses who stand to benefit from the new tax laws. This will deliver a boost our economy.  I will work to make sure those tax cuts translate into better jobs and higher wages for working Americans. 
+The tax cuts for corporations and small businesses passed in 2017 were necessary to keep jobs in the United States and to allow our family-run businesses to stay competitive in a global marketplace. In District 5 we are blessed with a strong mix of multi-national corporations and small businesses who stand to benefit from the new tax laws. This will deliver a boost our economy.  I will work to make sure those tax cuts translate into better jobs and higher wages for working Americans.
 
 >I will work to make sure those tax cuts translate into better jobs and higher wages for working Americans.

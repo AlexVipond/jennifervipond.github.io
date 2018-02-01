@@ -23,12 +23,12 @@
     }
 
     .button {
-        padding: 5px 10px 5px 10px;
+        padding: 7.5px 12.5px 7.5px 12.5px;
         margin: .67em .67em .67em 0;
         border-radius: 16px;
         font-size: 17px;
-        -webkit-transition: all .2s ease;
-        transition: all .2s ease;
+        -webkit-transition: all .15s ease;
+        transition: all .15s ease;
         display: inline-block;
     }
 
@@ -114,7 +114,6 @@
                 background-color: transparent;
                 color: #fefefe;
                 border: 1.5px solid #fefefe;
-                box-shadow: none;
                 margin: 0;
             }
 
@@ -153,15 +152,16 @@
         nav {
             display: flex;
             flex-direction: row;
+            box-sizing: border-box;
             padding: 1em 10vw;
-            width: 80vw;
+            width: 100vw;
             align-items: center;
         }
 
         nav .logo-wrapper {
             display: inline-block;
             text-align: left;
-            width: 19.9vw;
+            width: 25vw;
         }
 
             nav .logo {
@@ -216,7 +216,6 @@
 
                     nav .donate {
                         margin: 0;
-                        padding: 5px 10px 5px 10px;
                         background-color: #fefefe;
                         color: #9a0007;
                     }
@@ -229,17 +228,21 @@
     @media screen and (min-width: 900px) {
         .button {
             border-radius: 4px;
+            box-shadow: 0px 2px 2px 0px rgba(18,18,18,.5);
         }
 
         .button:hover {
             -webkit-transform: translateY(-1px);
             transform: translateY(-1px);
             cursor: pointer;
+            box-shadow: 0px 6px 6px 0px rgba(18,18,18,.5);
+            opacity: 1;
         }
 
         .button:active {
             -webkit-transform: translateY(1px);
             transform: translateY(1px);
+            box-shadow: 0px 2px 2px 0px rgba(18,18,18,.5);
         }
 
         nav h1 {
@@ -254,7 +257,7 @@
         }
 
         nav .logo-wrapper {
-            width: 19vw;
+            width: 19.9vw;
         }
 
             nav .logo:hover {
@@ -265,20 +268,5 @@
         nav .menu-wrapper {
             width: 40vw;
         }
-
-            nav .donate {
-                border: none;
-                box-shadow: 0px 0px 2px 0px rgba(18, 18, 18, .5), 0px 2px 2px 0px rgba(18, 18, 18, .5);
-            }
-
-            nav .donate:hover {
-                box-shadow: 0px 0px 6px 0px rgba(18, 18, 18, .5), 0px 6px 6px 0px rgba(18, 18, 18, .5);
-            }
-
-            nav .donate:active {
-                -webkit-transform: translateY(1px);
-                transform: translateY(1px);
-                box-shadow: 0px 0px 2px 0px rgba(18, 18, 18, .5), 0px 2px 2px 0px rgba(18, 18, 18, .5);
-            }
     }
 </style>

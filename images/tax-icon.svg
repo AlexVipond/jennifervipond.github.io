@@ -1,4 +1,4 @@
-<svg id="tax-icon" version="1.1"
+<svg transform="scale(5)" id="tax-icon" version="1.1"
     baseProfile="full"
     viewbox="0 0 107 68"
     preserveAspectRatio="xMinYMin meet"
@@ -14,12 +14,7 @@
             v -37
             m 37.5 37
             a 15 17.5 0 1 1 15 0
-            m -3.5 -20
-            a 4 4 0 1 0 -4 4
-            a 4 4 0 1 1 -4 4
-            m 4 -14
-            v 20
-            m -35 -31
+            m -42.5 -37
             a 10 10 0 0 1 -10 10
             m 0 17
             a 10 10 0 0 1 10 10
@@ -27,6 +22,12 @@
             a 10 10 0 0 1 10 -10
             m 0 -17
             a 10 10 0 0 1 -10 -10" />
+
+        <path d="M 46 31
+            a 4 4 0 1 0 4 -4
+            a 4 4 0 1 1 4 -4
+            m -4 14
+            v -20" />
 
         <path transform="translate(0 -37) rotate(20 50 65.5)" d="M 92 47
             h 3

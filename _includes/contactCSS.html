@@ -5,11 +5,11 @@
     }
 
     #contact input[name="first-name"], #contact input[name="last-name"], #contact input[name="email"], #contact input[name="message"] {
-        width: calc(100% - 20px);
+        width: 100%;
     }
 
     #contact input[name="phone"], #contact input[name="zipcode"] {
-        width: calc(49.8% - 20px);
+        width: 49.8%;
     }
 
     #contact input[name="phone"] {
@@ -32,7 +32,7 @@
     #contact textarea[name="message"] {
         height: 150px;
         resize: vertical;
-        width: calc(100% - 20px);
+        width: 100%;
         overflow: scroll;
         font-size: 17px;
         margin-top: 1.2em;
@@ -60,20 +60,5 @@
         #contact .button {
             background-color: #9a0007;
             color: #fefefe;
-        }
-
-        @media screen and (min-width: 900px) {
-            #contact .button {
-                box-shadow: 0px 0px 2px 0px #c3c3c3, 0px 2px 2px 0px #c3c3c3;
-            }
-
-            #contact .button:hover {
-                box-shadow: 0px 0px 6px 0px #c3c3c3, 0px 6px 6px 0px #c3c3c3;
-                opacity: 1;
-            }
-
-            #contact .button:active {
-                box-shadow: 0px 0px 2px 0px #c3c3c3, 0px 2px 2px 0px #c3c3c3;
-            }
         }
 </style>

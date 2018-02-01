@@ -1,0 +1,71 @@
+<svg transform="scale(5)" id="womens-issues-icon" version="1.1"
+    baseProfile="full"
+    viewbox="0 0 105 116"
+    preserveAspectRatio="xMinYMin meet"
+    xmlns="http://www.w3.org/2000/svg">
+
+    <rect x="0" y="0" width="105" height="116" stroke="#000" fill="none"/>
+    <g stroke-width="2" stroke-linejoin="round" stroke-linecap="round" fill="none" stroke="#000" >
+
+        <!-- face and neck -->
+        <path d="M 55 12.5
+            q -5 -1.5 -10 0
+            q -15 5 -15 30
+            q 0 15 15 20
+            q 5 2 10 0
+            M 55 12.5
+            q 15 5 15 30
+            q 0 15 -15 20
+            m 7 -2.5
+            v 10
+            m -24 -10
+            v 10"/>
+
+        <!-- right hair -->
+        <path d="M 45 12.5
+            q 0 -7.5 10 -7.5
+            q 10 0 15 5
+            q 5 5 12.5 30
+            q 4 15 2.5 30
+            q 0 4 -10 12.5
+            q -4 3 -7.5 5
+            q -4 -4 -5.6 -28"/>
+
+        <!-- left hair -->
+        <path d="M 47 6.5
+            q -10 0 -16.5 5
+            q -7.5 5 -12.5 30
+            q -3 15 0 25
+            q 2 3.5 3 3.5" />
+
+        <!-- scrubs -->
+        <path d="M 50 85
+            q 4 3 8 5
+            q -4 -2 -8 -5
+            q 6 -4 12 -15
+            m 23 0
+            q 4 1 10 6.25
+            q 6 4 6 20
+            M 50 85
+            q -6 -4 -12 -15
+            q -2 -3 -4 -5
+            q -15 4 -25 12.5
+            q -6 4 -6 20" />
+
+        <!-- stethoscope top -->
+        <path d="M 35 105
+            a 3 3 0 1 1 -.0001 0
+            q 0 -25 -7.5 -25
+            m -7.5 25
+            a 3 3 0 1 1 -.0001 0
+            q 0 -25 7.5 -25
+            q 0 -10 10.5 -15" />
+
+        <!-- stethoscope bottom -->
+        <path d="M 76 99
+            a 2 2 0 1 1 -.0001 0
+            m 0 -4
+            a 6 6 0 1 1 -.0001 0
+            q 0 -6 -2 -11.5" />
+    </g>
+</svg>
