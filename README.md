@@ -8,6 +8,11 @@ As you may have guessed, [vipondforcongress.com](https://vipondforcongress.com) 
 
 Dr. Vipond's team of independent designers and developers accomplished the goals of [vipondforcongress.com](https://vipondforcongress.com) using technology that is almost completely free and open source, and they published the source code here on Github for the general public to see and reuse.
 
+## Further reading
+[The Secret Startup That Saved the Worst Website in America](https://www.theatlantic.com/technology/archive/2015/07/the-secret-startup-saved-healthcare-gov-the-worst-website-in-america/397784/)
+
+[Insight: Health site woes show Washington misses out on cutting edge technology](https://www.reuters.com/article/us-usa-healthcare-contracting-insight/insight-health-site-woes-show-washington-misses-out-on-cutting-edge-technology-idUSBRE9AI05S20131119)
+
 ## Features
 #### Front End
 - Mobile-first, mobile-responsive design
@@ -15,7 +20,7 @@ Dr. Vipond's team of independent designers and developers accomplished the goals
 - Scores highly on audits for performance, accessibility, and best practices in web design
 
 #### Back end
-- Can handle heavy traffic (see [Github Pages traffic limits](link))
+- Can handle heavy traffic (see [Github Pages traffic limits](https://help.github.com/articles/what-is-github-pages/#usage-limits))
 - Encrypts and securely transmits form data (for example, credit card details)
 - Basic spam prevention measures taken on all forms
 - Form responses can be accessed in JSON format
@@ -32,8 +37,8 @@ Dr. Vipond's team of independent designers and developers accomplished the goals
 - No fixed costs
 - Variable costs only include:
     - Domain registration
-    - Financial transaction fees charged by [Stripe](link) and [Donorbox](link)
-    - Email fees charged by [Amazon Simple Email Service](link)
+    - Financial transaction fees charged by [Stripe](https://stripe.com/us/pricing) and [Donorbox](https://donorbox.org/pricing)
+    - Email fees charged by [Amazon Simple Email Service](https://aws.amazon.com/ses/pricing/)
 
 ## Technology
 The technology stack used to create and maintain Dr. Vipond's digital presence is:
@@ -48,8 +53,3 @@ The technology stack used to create and maintain Dr. Vipond's digital presence i
 - Prose.io (content editing)
 - Mail for Good (email marketing)
 - Google Analytics (website analytics)
-
-## Further reading
-[The Secret Startup That Saved the Worst Website in America](https://www.theatlantic.com/technology/archive/2015/07/the-secret-startup-saved-healthcare-gov-the-worst-website-in-america/397784/)
-
-[Insight: Health site woes show Washington misses out on cutting edge technology](https://www.reuters.com/article/us-usa-healthcare-contracting-insight/insight-health-site-woes-show-washington-misses-out-on-cutting-edge-technology-idUSBRE9AI05S20131119)
