@@ -203,7 +203,7 @@ footer {
 
     footer .button {
         color: #C3C3C3;
-        border: 2px solid #C3C3C3;
+        border-color: #C3C3C3;
         background-color: transparent;
         box-shadow: none;
     }
