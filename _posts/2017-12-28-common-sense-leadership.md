@@ -2,7 +2,7 @@
 date: '2017-12-28 17:29 -0600'
 layout: policy
 published: true
-title: Common Sense Leadership
+title: Real Life Experience
 tags:
   - common-sense-leadership
   - opioid-epidemic
@@ -18,7 +18,7 @@ My name is Dr. Jennifer Hoppe Vipond, and I am running to represent Wisconsin’
 
 For more than twenty-five years I have had the privilege to serve the people of District 5 as a pediatrician. I have worked with thousands of families and been a part of their struggles and their successes. I was born and raised in this district. My husband Mark and I have raised six children here while I have maintained a full time medical practice.
 
-Congress has become a dysfunctional body divided into two groups that refuse to agree on even the most obvious issues. I would like to bring back a Congress where common sense is more important than special interests and where evidence-based policymaking replaces fearmongering and divisiveness.
+Congress has become a dysfunctional body divided into two groups that refuse to agree on even the most obvious issues. I would like to bring back a Congress where real life experience is more influential than special interests and where evidence-based policymaking replaces fearmongering and divisiveness.
 
 Lasting reform will only be accomplished with bipartisan agreements, and it is time to grow up and work together to solve the problems that are impacting so many American families.
 
@@ -69,7 +69,7 @@ What are we waiting for?
 
 #### The Second Amendment
 
-Gun violence is a major problem in our district. Enforcement of our current gun laws is the first step in improving the safety of the residents of our district. The Second Amendment guarantees our right to bear arms, but common sense dictates that gun ownership should be restricted to only those people who are legally eligible to own guns.
+Gun violence is a major problem in our district. Enforcement of our current gun laws is the first step in improving the safety of the residents of our district. The Second Amendment guarantees our right to bear arms, but real life experience dictates that gun ownership should be restricted to only those people who are legally eligible to own guns.
 
 >I will protect the legal ownership of guns.
 
