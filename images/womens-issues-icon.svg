@@ -1,10 +1,9 @@
-<svg transform="scale(5)" id="womens-issues-icon" version="1.1"
+<svg id="womens-issues-icon" version="1.1"
     baseProfile="full"
     viewbox="0 0 105 116"
     preserveAspectRatio="xMinYMin meet"
     xmlns="http://www.w3.org/2000/svg">
 
-    <rect x="0" y="0" width="105" height="116" stroke="#000" fill="none"/>
     <g stroke-width="2" stroke-linejoin="round" stroke-linecap="round" fill="none" stroke="#000" >
 
         <!-- face and neck -->

@@ -28,7 +28,7 @@
         outline: none;
     }
 
-    #gist input[name="first-name"], #gist input[name="email"] {
+    #gist input[type="text"], #gist input[name="email"] {
         background-color: rgba(254,254,254,0);
         color: #fefefe;
     }
@@ -49,7 +49,7 @@
         color: rgba(254,254,254,.5);
     }
 
-    #gist input[name="first-name"] {
+    #gist input[type="text"] {
         display: none;
     }
 
@@ -95,20 +95,26 @@
 
     @media screen and (min-width: 600px) {
         #gist input[name="email"] {
-            width: 250px;
-            margin: 8vh 0 0 1vw;
+            width: 322px;
         }
 
         #gist button[name="submit-email"] {
             background-color: #fefefe;
-            color: #9a0007;
+            color: #0069c0;
         }
 
     }
 
     @media screen and (min-width: 900px) {
-        #gist input[name="first-name"] {
+        #gist input[type="text"] {
             display: inline-block;
+            margin-top: 3em;
+        }
+
+        #gist input[name="email"] {
+            display: block;
+            margin-top: 1em;
+            width: 418px;
         }
 
         #gist .button {

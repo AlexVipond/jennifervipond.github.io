@@ -31,8 +31,8 @@ prose:
           label: "Add Tags"
           placeholder: "Choose tags"
           options:
-            - name: "Common Sense Leadership"
-              value: "common-sense-leadership"
+            - name: "Real Life Experience"
+              value: "real-life-experience"
             - name: "Opioid Epidemic"
               value: "opioid-epidemic"
             - name: "Medical Care"

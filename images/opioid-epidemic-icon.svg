@@ -4,7 +4,7 @@
     preserveAspectRatio="xMinYMin meet"
     xmlns="http://www.w3.org/2000/svg">
 
-    <g stroke-width="2" stroke-linecap="round" fill="none">
+    <g stroke-width="2" stroke-linecap="round" fill="none" stroke="#000">
         <g stroke-linejoin="round">
             <path d="M 50 5
                 h 45

@@ -1,10 +1,10 @@
 ---
-date: '2017-12-28 17:29 -0600'
+date: '2018-01-01 12:00 -0600'
 layout: policy
 published: true
 title: Real Life Experience
 tags:
-  - common-sense-leadership
+  - real-life-experience
   - opioid-epidemic
   - medical-care
   - second-amendment
@@ -22,11 +22,11 @@ Congress has become a dysfunctional body divided into two groups that refuse to 
 
 Lasting reform will only be accomplished with bipartisan agreements, and it is time to grow up and work together to solve the problems that are impacting so many American families.
 
-As a pediatrician, I have worked hard to address today’s issues in order to assure the best possible tomorrow. In Congress, I will do the same.   
+> I would like to bring back a Congress where real life experience is more influential than special interests and where evidence-based policymaking replaces fearmongering and divisiveness.
 
 <hr style="visibility: hidden;" id="medical-care">
 
-> As a pediatrician, I have worked hard to address today’s issues in order to assure the best possible tomorrow. In Congress, I will do the same.
+As a pediatrician, I have worked hard to address today’s issues in order to assure the best possible tomorrow. In Congress, I will do the same.
 
 
 #### The Challenge of Medical Care

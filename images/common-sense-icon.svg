@@ -5,7 +5,7 @@
     xmlns="http://www.w3.org/2000/svg">
 
     <!-- Bulb circle centered at 50, 40 -->
-    <g transform="translate(2.5 13)" stroke-width="2" stroke-linecap="round" fill="none">
+    <g transform="translate(2.5 13)" stroke-width="2" stroke-linecap="round" fill="none" stroke="#000">
         <path
             d="M 25.251262658470836 64.74873734152916
             A 35 35 0 1 1 74.74873734152916 64.74873734152916
