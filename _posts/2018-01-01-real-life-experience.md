@@ -18,11 +18,11 @@ My name is Dr. Jennifer Hoppe Vipond, and I am running to represent Wisconsin’
 
 For more than twenty-five years I have had the privilege to serve the people of District 5 as a pediatrician. I have worked with thousands of families and been a part of their struggles and their successes. I was born and raised in this district. My husband Mark and I have raised six children here while I have maintained a full time medical practice.
 
-Congress has become a dysfunctional body divided into two groups that refuse to agree on even the most obvious issues. I would like to bring back a Congress where real life experience is more influential than special interests and where evidence-based policymaking replaces fearmongering and divisiveness.
+Congress has become a dysfunctional body divided into two groups that refuse to agree on even the most obvious issues. I would like to bring back a Congress where real life experience is more influential than special interests and where evidence-based policymaking replaces fear mongering and divisiveness.
 
 Lasting reform will only be accomplished with bipartisan agreements, and it is time to grow up and work together to solve the problems that are impacting so many American families.
 
-> I would like to bring back a Congress where real life experience is more influential than special interests and where evidence-based policymaking replaces fearmongering and divisiveness.
+> I would like to bring back a Congress where real life experience is more influential than special interests and where evidence-based policymaking replaces fear mongering and divisiveness.
 
 As a pediatrician, I have worked hard to address today’s issues in order to assure the best possible tomorrow. In Congress, I will do the same.
 
@@ -100,6 +100,6 @@ Just as poverty and entitlements can lead to a cycle of government dependency, e
 
 #### Tax Cuts
 
-The tax cuts for corporations and small businesses passed in 2017 were necessary to keep jobs in the United States and to allow our family-run businesses to stay competitive in a global marketplace. In District 5 we are blessed with a strong mix of multi-national corporations and small businesses who stand to benefit from the new tax laws. This will deliver a boost our economy.  I will work to make sure those tax cuts translate into better jobs and higher wages for working Americans.
+The tax cuts for corporations and small businesses passed in 2017 were necessary to keep jobs in the United States and to allow our family-run businesses to stay competitive in a global marketplace. In District 5 we are blessed with a strong mix of multi-national corporations and small businesses that stand to benefit from the new tax laws. This will deliver a boost our economy.  I will work to make sure those tax cuts translate into better jobs and higher wages for working Americans.
 
 >I will work to make sure those tax cuts translate into better jobs and higher wages for working Americans.
