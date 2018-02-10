@@ -186,10 +186,11 @@ main blockquote p {
     margin: 1.6em;
 }
 
+main .blog-post img {
+    width: 100%;
+}
 
-
-
-
+/* Footer */
 footer {
     background-color: #3C3C3C;
     color: #C3C3C3;

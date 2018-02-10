@@ -69,6 +69,10 @@ main {
         text-align: center;
     }
 
+    main .blog-post img {
+        width: 700px;
+    }
+
 
 /* Footer positions */
 

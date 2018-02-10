@@ -24,9 +24,11 @@ Lasting reform will only be accomplished with bipartisan agreements, and it is t
 
 > I would like to bring back a Congress where real life experience is more influential than special interests and where evidence-based policymaking replaces fearmongering and divisiveness.
 
+As a pediatrician, I have worked hard to address today’s issues in order to assure the best possible tomorrow. In Congress, I will do the same.
+
 <hr style="visibility: hidden;" id="medical-care">
 
-As a pediatrician, I have worked hard to address today’s issues in order to assure the best possible tomorrow. In Congress, I will do the same.
+![Dr. Jennifer Hoppe Vipond using a stethoscope to check on a baby](/images/blog-media/jv-baby-700.jpg)
 
 
 #### The Challenge of Medical Care
@@ -39,9 +41,11 @@ While Congress has battled over strategies to pay for the crippling costs of med
 
 I am running for Congress because I would like to work on strategies to control healthcare costs. As a physician, I have seen how much waste we tolerate in medicine. Complicated billing systems requiring multiple administrative layers, uncontrolled prescription drug costs, duplication of services, and fraud all increase price without improving patient outcomes. I do not have all the answers on how this country's next health plan will look but I know that we need physicians involved in its development.
 
+Until these issues are resolved, medical costs will continue to rise, and Americans will be stuck with the bill.
+
 <hr style="visibility: hidden;" id="opioid-epidemic">
 
-Until these issues are resolved, medical costs will continue to rise, and Americans will be stuck with the bill.
+![Dr. Jennifer Hoppe Vipond working with nurses](/images/blog-media/jv-nurses-700.jpg)
 
 
 #### The Opioid Epidemic
