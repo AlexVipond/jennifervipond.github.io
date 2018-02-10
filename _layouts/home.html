@@ -51,30 +51,34 @@
                 #bg-img {
                     background-image: url(/images/jv-green-shirt-headshot-600.jpg);
                     opacity: .55;
+                    background-position: center top;
                 }
 
                 @media screen and (min-width: 600px) {
                     #bg-img {
-                        background-image: url(/images/jv-baby-1280.jpg);
+                        background-image: url(/images/jv-paisley-headshot-cropped-1280.jpg);
+                        background-position: left top;
                     }
                 }
             </style>
-            <div id="bg-img" class="bg-img bg-img-center-top"></div>
+            <div id="bg-img" class="bg-img"></div>
 
             <div id="gist-wrapper">
                 <div id="gist">
-                    <h1><span id="vote">Vote </span><span id="jennifer">Jennifer </span><span id="hoppe">Hoppe </span><span id="vipond">Vipond</span></h1>
+                    <h1><span id="vote">Vote&nbsp;</span><span id="dr-jennifer-hoppe">Dr. Jennifer Hoppe </span><span id="vipond">Vipond</span></h1>
                     <h2>for <span id="congress">Congress</span><span id="wisconsin">Wisconsin's Fifth District</span></h2>
 
                     <form action="https://getsimpleform.com/messages?form_api_token=c826bf93cc0f701979110234068b770a" method="post">
-                      <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-                      <input type='hidden' name='redirect_to' value='https://vipondforcongress.com/email/thank-you.html' />
-                      <!-- all your input fields here....the first one is a honeypot -->
-                      <input type="tel" name="unsubscribe_me" value="" tabindex="-1" autocomplete="off" />
-                      <input type="text" name="first-name" value="" placeholder="First name" autocapitalize="words" aria-label="first name" />
-                      <input type="text" name="last-name" value="" placeholder="Last name" autocapitalize="words" aria-label="last name" />
-                      <input type="email" name="email" value="" placeholder="Email" aria-label="email" required /><br>
-                      <button class="button" type="submit" name="submit-email">Get the latest news</button>
+                        <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+                        <input type='hidden' name='redirect_to' value='https://vipondforcongress.com/email/thank-you.html' />
+                        <!-- all your input fields here....the first one is a honeypot -->
+                        <input type="tel" name="unsubscribe_me" value="" tabindex="-1" autocomplete="off" />
+                        <input type="text" name="first-name" value="" placeholder="First name" autocapitalize="words" aria-label="first name" />
+                        <input type="text" name="last-name" value="" placeholder="Last name" autocapitalize="words" aria-label="last name" />
+                        <div class="email-wrapper">
+                            <input type="email" name="email" value="" placeholder="Email" aria-label="email" required />
+                        </div><br>
+                        <button class="button" type="submit" name="submit-email">Subscribe to newsletter</button>
                     </form>
                 </div>
             </div>
