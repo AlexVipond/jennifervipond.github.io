@@ -85,6 +85,8 @@ By researching automobile accidents, American engineers have made huge progress 
 
 I will work to loosen the restrictions on gun research in order to decrease gun related deaths.
 
+![DSC_2542.JPG]({{site.baseurl}}/images/blog-media/DSC_2542.JPG)
+
 
 #### Women's Issues
 
