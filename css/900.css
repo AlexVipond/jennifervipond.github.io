@@ -61,18 +61,6 @@ main {
                 margin-bottom: 0;
             }
 
-    main .blog-post {
-        padding: 1.6em calc((100vw - 700px) / 2);
-    }
-
-    main .blog-post h2, main .blog-post h3 {
-        text-align: center;
-    }
-
-    main .blog-post img {
-        width: 700px;
-    }
-
 
 /* Footer positions */
 

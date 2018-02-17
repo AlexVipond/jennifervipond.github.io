@@ -22,7 +22,7 @@
 
 /* Main positions */
 
-main .flex, main .blog-post {
+main .flex {
     padding: 1.6em 10vw;
 }
 

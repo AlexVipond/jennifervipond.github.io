@@ -1,0 +1,50 @@
+<style>
+main .blog-post {
+    padding: 29px 5vw;
+}
+
+    main .blog-post > p:first-of-type {
+        margin-top: 2em;
+    }
+
+    main .blog-post .post-summary {
+        border-top: 2px solid #9a0007;
+    }
+
+    main .blog-post .post-summary h2, main .blog-post .post-summary h3 {
+        text-align: left;
+    }
+
+    /* Second child because the first child is an empty h2 */
+    main .blog-post .post-summary:nth-child(2) {
+        border: none;
+    }
+
+    main .blog-post img {
+        width: 100%;
+    }
+
+@media screen and (min-width: 600px) {
+    main .blog-post {
+        padding: 1.6em 10vw;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    main {
+        padding: 4.8em 0;
+    }
+    
+    main .blog-post {
+        padding: 1.6em calc((100vw - 700px) / 2);
+    }
+
+        main .blog-post img {
+            width: 700px;
+        }
+
+        main .blog-post h2, main .blog-post h3 {
+            text-align: center;
+        }
+}
+</style>
