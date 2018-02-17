@@ -24,3 +24,5 @@ Lasting reform will only be accomplished with bipartisan agreements, and it is t
 > I would like to bring back a Congress where real life experience is more influential than special interests and where evidence-based policymaking replaces fear mongering and divisiveness.
 
 As a pediatrician, I have worked hard to address today’s issues in order to assure the best possible tomorrow. In Congress, I will do the same.
+
+![DSC_2542.JPG]({{site.baseurl}}/images/blog-media/DSC_2542.JPG)
