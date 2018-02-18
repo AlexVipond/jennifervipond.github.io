@@ -13,7 +13,7 @@ Wisconsin has been a leader in proactively attacking the opioid epidemic but the
 
 In my practice I have seen the tragic results of this epidemic. Former patients have died of overdose. Some struggle with addiction and are either in and out of rehab programs or are incarcerated. It is now common to have newborns who spend their first few weeks of life in the hospital weaning off the opioid medications they were exposed to before birth. Especially tragic are the young children left orphaned by the epidemic. I take care of whole families of children who have entered the foster system because their parents are incarcerated, dead or unable to care for them because of opioids.
 
-In October of 2017 the President declared the opioid crisis a national public health emergency. Congress has yet to appropriate funds to attack this crisis. Americans are dying in record numbers.
+In October of 2017 the President declared the opioid crisis a national public health emergency. Congress has yet to make meaningful changes to attack this crisis. Americans are dying in record numbers. 
 
 >I would like to help expedite the implementation of the recommendations put forth in the President’s Commission on Combating Drug Addiction and the Opioid Crisis.
 
