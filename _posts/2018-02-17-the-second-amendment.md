@@ -11,7 +11,7 @@ excerpt: >-
   Real life experience dictates that gun ownership should be restricted to only
   those people who are legally eligible to own guns.
 ---
-Gun violence is a major problem in our district. Enforcement of our current gun laws is the first step in improving the safety of the residents of our district. The Second Amendment guarantees our right to bear arms, but real life experience dictates that gun ownership should be restricted to only those people who are legally eligible to own guns.
+Gun violence is a major problem in our district. Enforcement of our current gun laws is the first step in improving the safety of the residents of our district. The Second Amendment guarantees our right to bear arms, but connon sense dictates that gun ownership should be restricted to only those people who are legally eligible to own guns.
 
 Gun violence continues to be a major problem in our country and few Americans have been unaffected. There have been two mass shootings within two miles of my home. My oldest son sheltered in place during the June 2017 shooting in Virginia that injured Congressman Steve Scalise and three other people.  Enforcement of our current gun laws is the first step in improving the safety of the residents of our district but, as we saw in the February 14th 2018 shooting in Parkland, Florida, the current laws are inadequate. Despite a long history of mental health problems and multiple interactions with local law enforcement, the shooter was able to legally purchase an AR-15 semiautomatic weapon with multiple magazines.
 
@@ -29,7 +29,7 @@ Most mentally ill people will never pick up a gun, but there are established war
 
 >We need to keep guns out of the hands of mentally ill people with violent tendencies.
 
-By researching automobile accidents, American engineers have made huge progress in making our cars safer and in reducing automobile related deaths and injuries. We have all benefited. The same approach could help reduce gun violence, but since 1996 the Centers for Disease Control has been unable to fund research that could help make guns safer.  Guns could be made theft resistant and child resistant without interfering with the rights of gun owners.
+By researching automobile accidents, American engineers have made huge progress in making our cars safer and in reducing automobile related deaths and injuries. We have all benefited. The same approach could help reduce gun violence, but since 1996 the Centers for Disease Control has been unable to fund research that could help make guns safer.  As a result we have very little objective evidence on how to best prevent the public health crisis of gun related deaths. Guns could be made theft resistant and child resistant without interfering with the rights of gun owners.
 
 > Guns can be made theft resistant and child resistant without interfering with the rights of gun owners.
 
