@@ -11,7 +11,7 @@ excerpt: >-
   Real life experience dictates that gun ownership should be restricted to only
   those people who are legally eligible to own guns.
 ---
-Gun violence is a major problem in our district. Enforcement of our current gun laws is the first step in improving the safety of the residents of our district. The Second Amendment guarantees our right to bear arms, but connon sense dictates that gun ownership should be restricted to only those people who are legally eligible to own guns.
+Gun violence is a major problem in our district. Enforcement of our current gun laws is the first step in improving the safety of the residents of our district. The Second Amendment guarantees our right to bear arms, but common sense dictates that gun ownership should be restricted to only those people who are legally eligible to own guns.
 
 Gun violence continues to be a major problem in our country and few Americans have been unaffected. There have been two mass shootings within two miles of my home. My oldest son sheltered in place during the June 2017 shooting in Virginia that injured Congressman Steve Scalise and three other people.  Enforcement of our current gun laws is the first step in improving the safety of the residents of our district but, as we saw in the February 14th 2018 shooting in Parkland, Florida, the current laws are inadequate. Despite a long history of mental health problems and multiple interactions with local law enforcement, the shooter was able to legally purchase an AR-15 semiautomatic weapon with multiple magazines.
 
