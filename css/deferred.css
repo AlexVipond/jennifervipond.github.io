@@ -35,10 +35,10 @@
         color: #fefefe;
     }
 
-    .fixed #mobile-donate {
+    .fixed .mobile-donate {
         color: #9a0007;
         border-color: #9a0007;
-        background-color: #fefefe; 
+        background-color: #fefefe;
     }
 
     .fixed .menu-icon path {
