@@ -43,6 +43,8 @@ prose:
               value: "womens-issues"
             - name: "Tax Cuts"
               value: "tax-cuts"
+            - name: "Climate Resilience"
+              value: "climate-resilience"
             - name: "Evidence-based policy"
               value: "evidence-based-policy"
       - name: "title"
