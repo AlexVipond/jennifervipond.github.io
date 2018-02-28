@@ -157,6 +157,10 @@ main blockquote p {
     margin: 1.6em;
 }
 
+main .button {
+    border-color: #9a0007;
+}
+
 
 /* Footer */
 footer {
