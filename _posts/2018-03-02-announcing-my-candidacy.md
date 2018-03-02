@@ -7,6 +7,8 @@ tags:
   - real-life-experience
 excerpt: A transcript of my speech from the night I officially announced my candidacy
 ---
+_The following post is a transcript of my speech from the night I officially announced my candidacy._
+
 Hello and welcome!
 
 Thank you all for coming tonight. I have been overwhelmed by the support I have received over the past few months. The more people I talked to, and many of those people are in this room tonight, the more empowered I became to step up and make a difference
