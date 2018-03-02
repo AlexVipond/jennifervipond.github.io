@@ -5,7 +5,7 @@ published: true
 title: Announcing my Candidacy
 tags:
   - real-life-experience
-excerpt: A transcript of my speech from the night I officially announced my candidacy.
+excerpt: A transcript of my speech from the night I officially announced my candidacy
 ---
 Hello and welcome!
 
