@@ -5,6 +5,7 @@ published: true
 title: Women's Issues
 tags:
   - real-life-experience
+  - womens-issues
   - evidence-based-policy
 excerpt: >-
   In order to become successful and self-reliant citizens, women need control of
